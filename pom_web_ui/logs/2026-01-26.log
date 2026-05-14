@@ -1,0 +1,617 @@
+2026-01-26 14:37:24,838 - INFO - [login_page.py:29 - open_login_page] - 打开登录页面url :http://192.168.31.129
+2026-01-26 14:37:24,887 - INFO - [input.py:40 - _wait_any_input_present] - success 一个输入框: 用户名 候选进入 DOM
+2026-01-26 14:37:24,905 - INFO - [input.py:60 - _find_inputs] - 找到 1 个按钮候选: 用户名
+2026-01-26 14:37:24,911 - INFO - [input.py:67 - _wait_any_visible_from_elements] - 输入框可见：<selenium.webdriver.remote.webelement.WebElement (session="bbfcbae7b0208b3417e51f02fdcbb1bc", element="f.494FD68FCB56B3542C317CE4486D4604.d.A17D22463FC8FA01DB35BEACB62459AD.e.279")>
+2026-01-26 14:37:24,913 - INFO - [base_page.py:122 - wait_first_visible] - success 元素:用户名 已可见: <selenium.webdriver.remote.webelement.WebElement (session="bbfcbae7b0208b3417e51f02fdcbb1bc", element="f.494FD68FCB56B3542C317CE4486D4604.d.A17D22463FC8FA01DB35BEACB62459AD.e.279")>
+2026-01-26 14:37:24,967 - INFO - [base_page.py:371 - input] - success 输入：用户名: -> shi
+<selenium.webdriver.remote.webelement.WebElement (session="bbfcbae7b0208b3417e51f02fdcbb1bc", element="f.494FD68FCB56B3542C317CE4486D4604.d.A17D22463FC8FA01DB35BEACB62459AD.e.279")>
+2026-01-26 14:37:24,987 - INFO - [input.py:40 - _wait_any_input_present] - success 一个输入框: 密码 候选进入 DOM
+2026-01-26 14:37:25,012 - INFO - [input.py:60 - _find_inputs] - 找到 2 个按钮候选: 密码
+2026-01-26 14:37:25,018 - INFO - [input.py:67 - _wait_any_visible_from_elements] - 输入框可见：<selenium.webdriver.remote.webelement.WebElement (session="bbfcbae7b0208b3417e51f02fdcbb1bc", element="f.494FD68FCB56B3542C317CE4486D4604.d.A17D22463FC8FA01DB35BEACB62459AD.e.295")>
+2026-01-26 14:37:25,020 - INFO - [base_page.py:122 - wait_first_visible] - success 元素:密码 已可见: <selenium.webdriver.remote.webelement.WebElement (session="bbfcbae7b0208b3417e51f02fdcbb1bc", element="f.494FD68FCB56B3542C317CE4486D4604.d.A17D22463FC8FA01DB35BEACB62459AD.e.295")>
+2026-01-26 14:37:25,078 - INFO - [base_page.py:371 - input] - success 输入：密码: -> 2ws4rf6yh
+<selenium.webdriver.remote.webelement.WebElement (session="bbfcbae7b0208b3417e51f02fdcbb1bc", element="f.494FD68FCB56B3542C317CE4486D4604.d.A17D22463FC8FA01DB35BEACB62459AD.e.295")>
+2026-01-26 14:37:25,096 - INFO - [button.py:42 - _wait_any_button_present] - success 一个按钮: 登 录 候选进入 DOM
+2026-01-26 14:37:25,124 - INFO - [button.py:66 - _find_buttons] - 找到 1 个按钮候选: 登 录
+2026-01-26 14:37:25,130 - INFO - [button.py:73 - _wait_any_clickable_from_elements] - 按钮可点击：<selenium.webdriver.remote.webelement.WebElement (session="bbfcbae7b0208b3417e51f02fdcbb1bc", element="f.494FD68FCB56B3542C317CE4486D4604.d.A17D22463FC8FA01DB35BEACB62459AD.e.311")>
+2026-01-26 14:37:25,135 - INFO - [base_page.py:265 - wait_first_clickable] - success 元素: 登 录 可点击: <selenium.webdriver.remote.webelement.WebElement (session="bbfcbae7b0208b3417e51f02fdcbb1bc", element="f.494FD68FCB56B3542C317CE4486D4604.d.A17D22463FC8FA01DB35BEACB62459AD.e.311")>
+2026-01-26 14:37:25,171 - INFO - [base_page.py:358 - click] - success 点击：登 录
+2026-01-26 14:37:28,309 - INFO - [base_page.py:153 - wait_any_visible] - success 已找到任意一个可见元素：: ['By.XPATH', "//span[contains(text(), '登录成功')]"]
+2026-01-26 14:37:30,691 - INFO - [base_page.py:313 - wait_invisibility] - success 元素: 已消失：['By.XPATH', "//span[contains(text(), '登录成功')]"]
+2026-01-26 14:37:30,701 - INFO - [base_page.py:153 - wait_any_visible] - success 已找到任意一个可见元素：: ['By.XPATH', "//div/img[contains(@alt, '用户名')]//following-sibling::div[1]"]
+2026-01-26 14:37:30,993 - INFO - [button.py:42 - _wait_any_button_present] - success 一个按钮: 产品维护模块 候选进入 DOM
+2026-01-26 14:37:31,018 - INFO - [button.py:66 - _find_buttons] - 找到 1 个按钮候选: 产品维护模块
+2026-01-26 14:37:31,023 - INFO - [button.py:73 - _wait_any_clickable_from_elements] - 按钮可点击：<selenium.webdriver.remote.webelement.WebElement (session="bbfcbae7b0208b3417e51f02fdcbb1bc", element="f.494FD68FCB56B3542C317CE4486D4604.d.A17D22463FC8FA01DB35BEACB62459AD.e.3972")>
+2026-01-26 14:37:31,029 - INFO - [base_page.py:265 - wait_first_clickable] - success 元素: 产品维护模块 可点击: <selenium.webdriver.remote.webelement.WebElement (session="bbfcbae7b0208b3417e51f02fdcbb1bc", element="f.494FD68FCB56B3542C317CE4486D4604.d.A17D22463FC8FA01DB35BEACB62459AD.e.3972")>
+2026-01-26 14:37:31,083 - INFO - [base_page.py:358 - click] - success 点击：产品维护模块
+2026-01-26 14:37:31,164 - INFO - [base_page.py:92 - wait_element_present] - success 元素： ['By.XPATH', "//span[contains(text(), '账户维护')]/ancestor::div[1]"] 已存在
+2026-01-26 14:37:31,323 - INFO - [base_page.py:416 - get_attr] - success 获取属性：账户维护 | aria-expanded -> false
+2026-01-26 14:37:31,336 - INFO - [base_page.py:265 - wait_first_clickable] - success 元素: 账户维护 可点击: ['By.XPATH', "//span[contains(text(), '账户维护')]"]
+2026-01-26 14:37:31,371 - INFO - [base_page.py:358 - click] - success 点击：账户维护
+2026-01-26 14:37:31,382 - INFO - [base_page.py:92 - wait_element_present] - success 元素： ['By.XPATH', "//span[contains(text(), '账户维护')]/ancestor::div[1]"] 已存在
+2026-01-26 14:37:31,385 - INFO - [base_page.py:416 - get_attr] - success 获取属性：账户维护 | aria-expanded -> true
+2026-01-26 14:37:31,942 - INFO - [base_page.py:265 - wait_first_clickable] - success 元素: 医生管理 可点击: ['By.XPATH', "//span[contains(text(), '医生管理')]"]
+2026-01-26 14:37:31,996 - INFO - [base_page.py:358 - click] - success 点击：医生管理
+2026-01-26 14:37:32,015 - INFO - [button.py:42 - _wait_any_button_present] - success 一个按钮: 新增医生 候选进入 DOM
+2026-01-26 14:37:32,108 - INFO - [button.py:66 - _find_buttons] - 找到 1 个按钮候选: 新增医生
+2026-01-26 14:37:32,115 - INFO - [button.py:73 - _wait_any_clickable_from_elements] - 按钮可点击：<selenium.webdriver.remote.webelement.WebElement (session="bbfcbae7b0208b3417e51f02fdcbb1bc", element="f.494FD68FCB56B3542C317CE4486D4604.d.A17D22463FC8FA01DB35BEACB62459AD.e.6082")>
+2026-01-26 14:37:32,119 - INFO - [base_page.py:265 - wait_first_clickable] - success 元素: 新增医生 可点击: <selenium.webdriver.remote.webelement.WebElement (session="bbfcbae7b0208b3417e51f02fdcbb1bc", element="f.494FD68FCB56B3542C317CE4486D4604.d.A17D22463FC8FA01DB35BEACB62459AD.e.6082")>
+2026-01-26 14:37:32,193 - INFO - [base_page.py:358 - click] - success 点击：新增医生
+2026-01-26 14:44:44,633 - INFO - [login_page.py:29 - open_login_page] - 打开登录页面url :http://192.168.31.129
+2026-01-26 14:44:44,829 - INFO - [input.py:40 - _wait_any_input_present] - success 一个输入框: 用户名 候选进入 DOM
+2026-01-26 14:44:44,855 - INFO - [input.py:60 - _find_inputs] - 找到 1 个按钮候选: 用户名
+2026-01-26 14:44:44,864 - INFO - [input.py:67 - _wait_any_visible_from_elements] - 输入框可见：<selenium.webdriver.remote.webelement.WebElement (session="abf20aa7bbfd4b2ea57f1ed2d274fe3f", element="f.A0C53F79CCC7AC831A16DCA84949DD0F.d.E38F93845B7912063436F30BA4444DA2.e.2")>
+2026-01-26 14:44:44,868 - INFO - [base_page.py:122 - wait_first_visible] - success 元素:用户名 已可见: <selenium.webdriver.remote.webelement.WebElement (session="abf20aa7bbfd4b2ea57f1ed2d274fe3f", element="f.A0C53F79CCC7AC831A16DCA84949DD0F.d.E38F93845B7912063436F30BA4444DA2.e.2")>
+2026-01-26 14:44:44,967 - INFO - [base_page.py:371 - input] - success 输入：用户名: -> shi
+<selenium.webdriver.remote.webelement.WebElement (session="abf20aa7bbfd4b2ea57f1ed2d274fe3f", element="f.A0C53F79CCC7AC831A16DCA84949DD0F.d.E38F93845B7912063436F30BA4444DA2.e.2")>
+2026-01-26 14:44:44,996 - INFO - [input.py:40 - _wait_any_input_present] - success 一个输入框: 密码 候选进入 DOM
+2026-01-26 14:44:45,027 - INFO - [input.py:60 - _find_inputs] - 找到 2 个按钮候选: 密码
+2026-01-26 14:44:45,036 - INFO - [input.py:67 - _wait_any_visible_from_elements] - 输入框可见：<selenium.webdriver.remote.webelement.WebElement (session="abf20aa7bbfd4b2ea57f1ed2d274fe3f", element="f.A0C53F79CCC7AC831A16DCA84949DD0F.d.E38F93845B7912063436F30BA4444DA2.e.4")>
+2026-01-26 14:44:45,039 - INFO - [base_page.py:122 - wait_first_visible] - success 元素:密码 已可见: <selenium.webdriver.remote.webelement.WebElement (session="abf20aa7bbfd4b2ea57f1ed2d274fe3f", element="f.A0C53F79CCC7AC831A16DCA84949DD0F.d.E38F93845B7912063436F30BA4444DA2.e.4")>
+2026-01-26 14:44:45,107 - INFO - [base_page.py:371 - input] - success 输入：密码: -> 2ws4rf6yh
+<selenium.webdriver.remote.webelement.WebElement (session="abf20aa7bbfd4b2ea57f1ed2d274fe3f", element="f.A0C53F79CCC7AC831A16DCA84949DD0F.d.E38F93845B7912063436F30BA4444DA2.e.4")>
+2026-01-26 14:44:45,132 - INFO - [button.py:42 - _wait_any_button_present] - success 一个按钮: 登 录 候选进入 DOM
+2026-01-26 14:44:45,168 - INFO - [button.py:66 - _find_buttons] - 找到 1 个按钮候选: 登 录
+2026-01-26 14:44:45,176 - INFO - [button.py:73 - _wait_any_clickable_from_elements] - 按钮可点击：<selenium.webdriver.remote.webelement.WebElement (session="abf20aa7bbfd4b2ea57f1ed2d274fe3f", element="f.A0C53F79CCC7AC831A16DCA84949DD0F.d.E38F93845B7912063436F30BA4444DA2.e.12")>
+2026-01-26 14:44:45,182 - INFO - [base_page.py:265 - wait_first_clickable] - success 元素: 登 录 可点击: <selenium.webdriver.remote.webelement.WebElement (session="abf20aa7bbfd4b2ea57f1ed2d274fe3f", element="f.A0C53F79CCC7AC831A16DCA84949DD0F.d.E38F93845B7912063436F30BA4444DA2.e.12")>
+2026-01-26 14:44:45,222 - INFO - [base_page.py:358 - click] - success 点击：登 录
+2026-01-26 14:44:46,666 - INFO - [base_page.py:153 - wait_any_visible] - success 已找到任意一个可见元素：: ['By.XPATH', "//span[contains(text(), '登录成功')]"]
+2026-01-26 14:44:48,756 - INFO - [base_page.py:313 - wait_invisibility] - success 元素: 已消失：['By.XPATH', "//span[contains(text(), '登录成功')]"]
+2026-01-26 14:44:48,766 - INFO - [base_page.py:153 - wait_any_visible] - success 已找到任意一个可见元素：: ['By.XPATH', "//div/img[contains(@alt, '用户名')]//following-sibling::div[1]"]
+2026-01-26 14:44:52,274 - ERROR - [button.py:44 - _wait_any_button_present] - timeout DOM不存在按钮：产品维护模块 元素
+2026-01-26 14:45:02,662 - INFO - [login_page.py:29 - open_login_page] - 打开登录页面url :http://192.168.31.129
+2026-01-26 14:45:02,712 - INFO - [input.py:40 - _wait_any_input_present] - success 一个输入框: 用户名 候选进入 DOM
+2026-01-26 14:45:02,728 - INFO - [input.py:60 - _find_inputs] - 找到 1 个按钮候选: 用户名
+2026-01-26 14:45:02,733 - INFO - [input.py:67 - _wait_any_visible_from_elements] - 输入框可见：<selenium.webdriver.remote.webelement.WebElement (session="607dff59ef7a2f37dce2945149e0a449", element="f.90701A417DC407FD9CCD62C081FEF7BB.d.C621B9CE378915BED7144AF05D7AE6CF.e.279")>
+2026-01-26 14:45:02,736 - INFO - [base_page.py:122 - wait_first_visible] - success 元素:用户名 已可见: <selenium.webdriver.remote.webelement.WebElement (session="607dff59ef7a2f37dce2945149e0a449", element="f.90701A417DC407FD9CCD62C081FEF7BB.d.C621B9CE378915BED7144AF05D7AE6CF.e.279")>
+2026-01-26 14:45:02,789 - INFO - [base_page.py:371 - input] - success 输入：用户名: -> shi
+<selenium.webdriver.remote.webelement.WebElement (session="607dff59ef7a2f37dce2945149e0a449", element="f.90701A417DC407FD9CCD62C081FEF7BB.d.C621B9CE378915BED7144AF05D7AE6CF.e.279")>
+2026-01-26 14:45:02,810 - INFO - [input.py:40 - _wait_any_input_present] - success 一个输入框: 密码 候选进入 DOM
+2026-01-26 14:45:02,836 - INFO - [input.py:60 - _find_inputs] - 找到 2 个按钮候选: 密码
+2026-01-26 14:45:02,840 - INFO - [input.py:67 - _wait_any_visible_from_elements] - 输入框可见：<selenium.webdriver.remote.webelement.WebElement (session="607dff59ef7a2f37dce2945149e0a449", element="f.90701A417DC407FD9CCD62C081FEF7BB.d.C621B9CE378915BED7144AF05D7AE6CF.e.295")>
+2026-01-26 14:45:02,844 - INFO - [base_page.py:122 - wait_first_visible] - success 元素:密码 已可见: <selenium.webdriver.remote.webelement.WebElement (session="607dff59ef7a2f37dce2945149e0a449", element="f.90701A417DC407FD9CCD62C081FEF7BB.d.C621B9CE378915BED7144AF05D7AE6CF.e.295")>
+2026-01-26 14:45:02,905 - INFO - [base_page.py:371 - input] - success 输入：密码: -> 2ws4rf6yh
+<selenium.webdriver.remote.webelement.WebElement (session="607dff59ef7a2f37dce2945149e0a449", element="f.90701A417DC407FD9CCD62C081FEF7BB.d.C621B9CE378915BED7144AF05D7AE6CF.e.295")>
+2026-01-26 14:45:02,926 - INFO - [button.py:42 - _wait_any_button_present] - success 一个按钮: 登 录 候选进入 DOM
+2026-01-26 14:45:02,954 - INFO - [button.py:66 - _find_buttons] - 找到 1 个按钮候选: 登 录
+2026-01-26 14:45:02,961 - INFO - [button.py:73 - _wait_any_clickable_from_elements] - 按钮可点击：<selenium.webdriver.remote.webelement.WebElement (session="607dff59ef7a2f37dce2945149e0a449", element="f.90701A417DC407FD9CCD62C081FEF7BB.d.C621B9CE378915BED7144AF05D7AE6CF.e.311")>
+2026-01-26 14:45:02,966 - INFO - [base_page.py:265 - wait_first_clickable] - success 元素: 登 录 可点击: <selenium.webdriver.remote.webelement.WebElement (session="607dff59ef7a2f37dce2945149e0a449", element="f.90701A417DC407FD9CCD62C081FEF7BB.d.C621B9CE378915BED7144AF05D7AE6CF.e.311")>
+2026-01-26 14:45:03,002 - INFO - [base_page.py:358 - click] - success 点击：登 录
+2026-01-26 14:45:03,735 - INFO - [base_page.py:153 - wait_any_visible] - success 已找到任意一个可见元素：: ['By.XPATH', "//span[contains(text(), '登录成功')]"]
+2026-01-26 14:45:05,957 - INFO - [base_page.py:313 - wait_invisibility] - success 元素: 已消失：['By.XPATH', "//span[contains(text(), '登录成功')]"]
+2026-01-26 14:45:05,967 - INFO - [base_page.py:153 - wait_any_visible] - success 已找到任意一个可见元素：: ['By.XPATH', "//div/img[contains(@alt, '用户名')]//following-sibling::div[1]"]
+2026-01-26 14:45:06,247 - INFO - [button.py:42 - _wait_any_button_present] - success 一个按钮: 产品维护模块 候选进入 DOM
+2026-01-26 14:45:06,271 - INFO - [button.py:66 - _find_buttons] - 找到 1 个按钮候选: 产品维护模块
+2026-01-26 14:45:06,277 - INFO - [button.py:73 - _wait_any_clickable_from_elements] - 按钮可点击：<selenium.webdriver.remote.webelement.WebElement (session="607dff59ef7a2f37dce2945149e0a449", element="f.90701A417DC407FD9CCD62C081FEF7BB.d.C621B9CE378915BED7144AF05D7AE6CF.e.3962")>
+2026-01-26 14:45:06,281 - INFO - [base_page.py:265 - wait_first_clickable] - success 元素: 产品维护模块 可点击: <selenium.webdriver.remote.webelement.WebElement (session="607dff59ef7a2f37dce2945149e0a449", element="f.90701A417DC407FD9CCD62C081FEF7BB.d.C621B9CE378915BED7144AF05D7AE6CF.e.3962")>
+2026-01-26 14:45:06,329 - INFO - [base_page.py:358 - click] - success 点击：产品维护模块
+2026-01-26 14:45:06,453 - INFO - [base_page.py:92 - wait_element_present] - success 元素： ['By.XPATH', "//span[contains(text(), '账户维护')]/ancestor::div[1]"] 已存在
+2026-01-26 14:45:06,507 - INFO - [base_page.py:416 - get_attr] - success 获取属性：账户维护 | aria-expanded -> false
+2026-01-26 14:45:06,522 - INFO - [base_page.py:265 - wait_first_clickable] - success 元素: 账户维护 可点击: ['By.XPATH', "//span[contains(text(), '账户维护')]"]
+2026-01-26 14:45:06,569 - INFO - [base_page.py:358 - click] - success 点击：账户维护
+2026-01-26 14:45:06,574 - INFO - [base_page.py:92 - wait_element_present] - success 元素： ['By.XPATH', "//span[contains(text(), '账户维护')]/ancestor::div[1]"] 已存在
+2026-01-26 14:45:06,580 - INFO - [base_page.py:416 - get_attr] - success 获取属性：账户维护 | aria-expanded -> true
+2026-01-26 14:45:06,581 - INFO - [sidebar.py:108 - open_path] - 打开菜单路径: 账户维护 > 医生管理
+2026-01-26 14:45:07,100 - INFO - [base_page.py:265 - wait_first_clickable] - success 元素: 医生管理 可点击: ['By.XPATH', "//span[contains(text(), '医生管理')]"]
+2026-01-26 14:45:07,155 - INFO - [base_page.py:358 - click] - success 点击：医生管理
+2026-01-26 14:45:07,155 - INFO - [sidebar.py:110 - open_path] - 进入【医生管理】界面
+2026-01-26 14:45:07,174 - INFO - [button.py:42 - _wait_any_button_present] - success 一个按钮: 新增医生 候选进入 DOM
+2026-01-26 14:45:07,272 - INFO - [button.py:66 - _find_buttons] - 找到 1 个按钮候选: 新增医生
+2026-01-26 14:45:07,280 - INFO - [button.py:73 - _wait_any_clickable_from_elements] - 按钮可点击：<selenium.webdriver.remote.webelement.WebElement (session="607dff59ef7a2f37dce2945149e0a449", element="f.90701A417DC407FD9CCD62C081FEF7BB.d.C621B9CE378915BED7144AF05D7AE6CF.e.6074")>
+2026-01-26 14:45:07,285 - INFO - [base_page.py:265 - wait_first_clickable] - success 元素: 新增医生 可点击: <selenium.webdriver.remote.webelement.WebElement (session="607dff59ef7a2f37dce2945149e0a449", element="f.90701A417DC407FD9CCD62C081FEF7BB.d.C621B9CE378915BED7144AF05D7AE6CF.e.6074")>
+2026-01-26 14:45:07,354 - INFO - [base_page.py:358 - click] - success 点击：新增医生
+2026-01-26 15:57:48,681 - INFO - [login_page.py:29 - open_login_page] - 打开登录页面url :http://192.168.31.129
+2026-01-26 15:57:48,736 - INFO - [input.py:40 - _wait_any_input_present] - success 一个输入框: 用户名 候选进入 DOM
+2026-01-26 15:57:48,757 - INFO - [input.py:60 - _find_inputs] - 找到 1 个按钮候选: 用户名
+2026-01-26 15:57:48,764 - INFO - [input.py:67 - _wait_any_visible_from_elements] - 输入框可见：<selenium.webdriver.remote.webelement.WebElement (session="10f051404294d71025117461eaed7f3f", element="f.28C6954A7CC76EAD47ADFEE82B6993EC.d.9683C569B14135E3EA4F2D2050D8B2E6.e.2")>
+2026-01-26 15:57:48,768 - INFO - [base_page.py:122 - wait_first_visible] - success 元素:用户名 已可见: <selenium.webdriver.remote.webelement.WebElement (session="10f051404294d71025117461eaed7f3f", element="f.28C6954A7CC76EAD47ADFEE82B6993EC.d.9683C569B14135E3EA4F2D2050D8B2E6.e.2")>
+2026-01-26 15:57:48,828 - INFO - [base_page.py:371 - input] - success 输入：用户名: -> shi
+<selenium.webdriver.remote.webelement.WebElement (session="10f051404294d71025117461eaed7f3f", element="f.28C6954A7CC76EAD47ADFEE82B6993EC.d.9683C569B14135E3EA4F2D2050D8B2E6.e.2")>
+2026-01-26 15:57:48,850 - INFO - [input.py:40 - _wait_any_input_present] - success 一个输入框: 密码 候选进入 DOM
+2026-01-26 15:57:48,881 - INFO - [input.py:60 - _find_inputs] - 找到 2 个按钮候选: 密码
+2026-01-26 15:57:48,887 - INFO - [input.py:67 - _wait_any_visible_from_elements] - 输入框可见：<selenium.webdriver.remote.webelement.WebElement (session="10f051404294d71025117461eaed7f3f", element="f.28C6954A7CC76EAD47ADFEE82B6993EC.d.9683C569B14135E3EA4F2D2050D8B2E6.e.4")>
+2026-01-26 15:57:48,892 - INFO - [base_page.py:122 - wait_first_visible] - success 元素:密码 已可见: <selenium.webdriver.remote.webelement.WebElement (session="10f051404294d71025117461eaed7f3f", element="f.28C6954A7CC76EAD47ADFEE82B6993EC.d.9683C569B14135E3EA4F2D2050D8B2E6.e.4")>
+2026-01-26 15:57:48,952 - INFO - [base_page.py:371 - input] - success 输入：密码: -> 2ws4rf6yh
+<selenium.webdriver.remote.webelement.WebElement (session="10f051404294d71025117461eaed7f3f", element="f.28C6954A7CC76EAD47ADFEE82B6993EC.d.9683C569B14135E3EA4F2D2050D8B2E6.e.4")>
+2026-01-26 15:57:48,973 - INFO - [button.py:42 - _wait_any_button_present] - success 一个按钮: 登 录 候选进入 DOM
+2026-01-26 15:57:49,003 - INFO - [button.py:66 - _find_buttons] - 找到 1 个按钮候选: 登 录
+2026-01-26 15:57:49,010 - INFO - [button.py:73 - _wait_any_clickable_from_elements] - 按钮可点击：<selenium.webdriver.remote.webelement.WebElement (session="10f051404294d71025117461eaed7f3f", element="f.28C6954A7CC76EAD47ADFEE82B6993EC.d.9683C569B14135E3EA4F2D2050D8B2E6.e.12")>
+2026-01-26 15:57:49,016 - INFO - [base_page.py:265 - wait_first_clickable] - success 元素: 登 录 可点击: <selenium.webdriver.remote.webelement.WebElement (session="10f051404294d71025117461eaed7f3f", element="f.28C6954A7CC76EAD47ADFEE82B6993EC.d.9683C569B14135E3EA4F2D2050D8B2E6.e.12")>
+2026-01-26 15:57:49,051 - INFO - [base_page.py:358 - click] - success 点击：登 录
+2026-01-26 15:57:50,108 - INFO - [base_page.py:153 - wait_any_visible] - success 已找到任意一个可见元素：: ['By.XPATH', "//span[contains(text(), '登录成功')]"]
+2026-01-26 15:57:52,038 - INFO - [base_page.py:313 - wait_invisibility] - success 元素: 已消失：['By.XPATH', "//span[contains(text(), '登录成功')]"]
+2026-01-26 15:57:53,615 - INFO - [button.py:42 - _wait_any_button_present] - success 一个按钮: 数字阅片 候选进入 DOM
+2026-01-26 15:57:53,809 - INFO - [button.py:66 - _find_buttons] - 找到 1 个按钮候选: 数字阅片
+2026-01-26 15:57:53,819 - INFO - [button.py:73 - _wait_any_clickable_from_elements] - 按钮可点击：<selenium.webdriver.remote.webelement.WebElement (session="10f051404294d71025117461eaed7f3f", element="f.28C6954A7CC76EAD47ADFEE82B6993EC.d.9683C569B14135E3EA4F2D2050D8B2E6.e.30")>
+2026-01-26 15:57:53,826 - INFO - [base_page.py:265 - wait_first_clickable] - success 元素: 数字阅片 可点击: <selenium.webdriver.remote.webelement.WebElement (session="10f051404294d71025117461eaed7f3f", element="f.28C6954A7CC76EAD47ADFEE82B6993EC.d.9683C569B14135E3EA4F2D2050D8B2E6.e.30")>
+2026-01-26 15:57:53,899 - INFO - [base_page.py:358 - click] - success 点击：数字阅片
+2026-01-26 15:57:56,399 - INFO - [button.py:42 - _wait_any_button_present] - success 一个按钮: 全部待办 候选进入 DOM
+2026-01-26 15:57:56,433 - INFO - [button.py:66 - _find_buttons] - 找到 1 个按钮候选: 全部待办
+2026-01-26 15:57:56,439 - INFO - [button.py:73 - _wait_any_clickable_from_elements] - 按钮可点击：<selenium.webdriver.remote.webelement.WebElement (session="10f051404294d71025117461eaed7f3f", element="f.28C6954A7CC76EAD47ADFEE82B6993EC.d.9683C569B14135E3EA4F2D2050D8B2E6.e.46")>
+2026-01-26 15:57:56,446 - INFO - [base_page.py:265 - wait_first_clickable] - success 元素: 全部待办 可点击: <selenium.webdriver.remote.webelement.WebElement (session="10f051404294d71025117461eaed7f3f", element="f.28C6954A7CC76EAD47ADFEE82B6993EC.d.9683C569B14135E3EA4F2D2050D8B2E6.e.46")>
+2026-01-26 15:57:56,532 - INFO - [base_page.py:358 - click] - success 点击：全部待办
+2026-01-26 15:57:58,093 - INFO - [base_page.py:92 - wait_element_present] - success 元素： ['By.XPATH', "//div[contains(@class, 'custom-ant-table-header')]/table"] 已存在
+2026-01-26 15:57:58,101 - INFO - [base_page.py:207 - find_in_all] - success 在父元素 已经找到 所有子元素： ['By.XPATH', './/thead/tr/th']
+2026-01-26 15:57:58,104 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 标识
+2026-01-26 15:57:58,107 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 病例号
+2026-01-26 15:57:58,111 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 姓名
+2026-01-26 15:57:58,117 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 涂片片号
+2026-01-26 15:57:58,120 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 申请单号
+2026-01-26 15:57:58,123 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 玻片总数
+2026-01-26 15:57:58,125 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 报告人
+2026-01-26 15:57:58,128 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 审核人
+2026-01-26 15:57:58,131 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 项目创建时间
+2026-01-26 15:57:58,133 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 项目类型
+2026-01-26 15:57:58,136 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 项目状态
+2026-01-26 15:57:58,138 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 操作
+2026-01-26 15:57:58,141 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 
+2026-01-26 15:57:58,151 - INFO - [base_page.py:153 - wait_any_visible] - success 已找到任意一个可见元素：: ['By.XPATH', "//div[contains(@class, 'custom-ant-table-body')]/table"]
+2026-01-26 15:57:58,159 - INFO - [base_page.py:207 - find_in_all] - success 在父元素 已经找到 所有子元素： ['By.XPATH', './/tbody/tr']
+2026-01-26 15:57:58,165 - INFO - [base_page.py:207 - find_in_all] - success 在父元素 已经找到 所有子元素： ['By.XPATH', './/td']
+2026-01-26 15:57:58,165 - INFO - [base_table.py:186 - find_row_by_conditions] - 9, ......12
+2026-01-26 15:57:58,172 - INFO - [base_page.py:432 - get_text] - success 获取 text 属性： | text -> 
+2026-01-26 15:57:58,179 - INFO - [base_page.py:207 - find_in_all] - success 在父元素 已经找到 所有子元素： ['By.XPATH', './/div|.//span|.//a|.//button']
+2026-01-26 15:57:58,187 - INFO - [base_page.py:207 - find_in_all] - success 在父元素 已经找到 所有子元素： ['By.XPATH', './/td']
+2026-01-26 15:57:58,188 - INFO - [base_table.py:186 - find_row_by_conditions] - 9, ......12
+2026-01-26 15:57:58,193 - INFO - [base_page.py:432 - get_text] - success 获取 text 属性： | text -> 骨髓
+2026-01-26 15:57:58,194 - INFO - [base_table.py:186 - find_row_by_conditions] - 10, ......12
+2026-01-26 15:57:58,198 - INFO - [base_page.py:432 - get_text] - success 获取 text 属性： | text -> 待查看
+2026-01-26 15:57:58,198 - INFO - [base_table.py:193 - find_row_by_conditions] - [find_rows] conditions={'项目类型': '骨髓', '项目状态': '待查看'} -> idxs=1
+2026-01-26 15:57:59,236 - INFO - [base_page.py:92 - wait_element_present] - success 元素： ['By.XPATH', "//div[contains(@class, 'custom-ant-table-header')]/table"] 已存在
+2026-01-26 15:57:59,241 - INFO - [base_page.py:207 - find_in_all] - success 在父元素 已经找到 所有子元素： ['By.XPATH', './/thead/tr/th']
+2026-01-26 15:57:59,244 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 标识
+2026-01-26 15:57:59,247 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 病例号
+2026-01-26 15:57:59,250 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 姓名
+2026-01-26 15:57:59,252 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 涂片片号
+2026-01-26 15:57:59,255 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 申请单号
+2026-01-26 15:57:59,257 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 玻片总数
+2026-01-26 15:57:59,260 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 报告人
+2026-01-26 15:57:59,262 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 审核人
+2026-01-26 15:57:59,265 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 项目创建时间
+2026-01-26 15:57:59,267 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 项目类型
+2026-01-26 15:57:59,270 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 项目状态
+2026-01-26 15:57:59,273 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 操作
+2026-01-26 15:57:59,275 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 
+2026-01-26 15:57:59,280 - INFO - [base_page.py:207 - find_in_all] - success 在父元素 已经找到 所有子元素： ['By.XPATH', './/td']
+2026-01-26 15:57:59,284 - INFO - [base_page.py:432 - get_text] - success 获取 text 属性： | text -> 打开
+预览报告
+2026-01-26 15:57:59,288 - INFO - [base_page.py:207 - find_in_all] - success 在父元素 已经找到 所有子元素： ['By.XPATH', './/div|.//span|.//a|.//button']
+2026-01-26 15:57:59,301 - INFO - [base_page.py:444 - scroll_to_element] - success 滚动到指定列的可视区域
+2026-01-26 15:57:59,308 - INFO - [base_page.py:265 - wait_first_clickable] - success 元素: None 可点击: <selenium.webdriver.remote.webelement.WebElement (session="10f051404294d71025117461eaed7f3f", element="f.28C6954A7CC76EAD47ADFEE82B6993EC.d.9683C569B14135E3EA4F2D2050D8B2E6.e.460")>
+2026-01-26 15:57:59,361 - INFO - [base_page.py:358 - click] - success 点击：<selenium.webdriver.remote.webelement.WebElement (session="10f051404294d71025117461eaed7f3f", element="f.28C6954A7CC76EAD47ADFEE82B6993EC.d.9683C569B14135E3EA4F2D2050D8B2E6.e.460")>
+2026-01-26 15:58:04,607 - INFO - [button.py:42 - _wait_any_button_present] - success 一个按钮: 填写报告 候选进入 DOM
+2026-01-26 15:58:04,652 - INFO - [button.py:66 - _find_buttons] - 找到 1 个按钮候选: 填写报告
+2026-01-26 15:58:04,661 - INFO - [button.py:73 - _wait_any_clickable_from_elements] - 按钮可点击：<selenium.webdriver.remote.webelement.WebElement (session="10f051404294d71025117461eaed7f3f", element="f.28C6954A7CC76EAD47ADFEE82B6993EC.d.9683C569B14135E3EA4F2D2050D8B2E6.e.465")>
+2026-01-26 15:58:04,669 - INFO - [base_page.py:265 - wait_first_clickable] - success 元素: 填写报告 可点击: <selenium.webdriver.remote.webelement.WebElement (session="10f051404294d71025117461eaed7f3f", element="f.28C6954A7CC76EAD47ADFEE82B6993EC.d.9683C569B14135E3EA4F2D2050D8B2E6.e.465")>
+2026-01-26 15:58:04,750 - INFO - [base_page.py:358 - click] - success 点击：填写报告
+2026-01-26 15:58:25,710 - INFO - [base_dialog.py:44 - _wait_any_dialog_present] - success 一个 弹窗 候选进入 DOM
+2026-01-26 15:58:25,715 - INFO - [base_dialog.py:63 - _find_dialogs] - 找到 1 个 弹窗 候选
+2026-01-26 15:58:25,725 - INFO - [base_dialog.py:82 - _get_visible_dialogs_z_index] - [_get_visible_dialogs_z_index] 获取到弹窗数量：1, 弹窗：[(<selenium.webdriver.remote.webelement.WebElement (session="10f051404294d71025117461eaed7f3f", element="f.28C6954A7CC76EAD47ADFEE82B6993EC.d.9683C569B14135E3EA4F2D2050D8B2E6.e.532")>, 1000)]
+2026-01-26 15:58:25,747 - INFO - [button.py:42 - _wait_any_button_present] - success 一个按钮: 永久关闭 候选进入 DOM
+2026-01-26 15:58:25,756 - INFO - [base_page.py:207 - find_in_all] - success 在父元素 已经找到 所有子元素： 永久关闭
+2026-01-26 15:58:25,764 - INFO - [base_page.py:207 - find_in_all] - success 在父元素 已经找到 所有子元素： 永久关闭
+2026-01-26 15:58:25,773 - INFO - [base_page.py:207 - find_in_all] - success 在父元素 已经找到 所有子元素： 永久关闭
+2026-01-26 15:58:25,781 - INFO - [base_page.py:207 - find_in_all] - success 在父元素 已经找到 所有子元素： 永久关闭
+2026-01-26 15:58:25,788 - INFO - [base_page.py:207 - find_in_all] - success 在父元素 已经找到 所有子元素： 永久关闭
+2026-01-26 15:58:25,797 - INFO - [base_page.py:207 - find_in_all] - success 在父元素 已经找到 所有子元素： 永久关闭
+2026-01-26 15:58:25,797 - INFO - [button.py:66 - _find_buttons] - 找到 1 个按钮候选: 永久关闭
+2026-01-26 15:58:25,804 - INFO - [button.py:73 - _wait_any_clickable_from_elements] - 按钮可点击：<selenium.webdriver.remote.webelement.WebElement (session="10f051404294d71025117461eaed7f3f", element="f.28C6954A7CC76EAD47ADFEE82B6993EC.d.9683C569B14135E3EA4F2D2050D8B2E6.e.670")>
+2026-01-26 15:58:25,812 - INFO - [base_page.py:265 - wait_first_clickable] - success 元素: 永久关闭 可点击: <selenium.webdriver.remote.webelement.WebElement (session="10f051404294d71025117461eaed7f3f", element="f.28C6954A7CC76EAD47ADFEE82B6993EC.d.9683C569B14135E3EA4F2D2050D8B2E6.e.670")>
+2026-01-26 15:58:25,836 - INFO - [base_page.py:358 - click] - success 点击：永久关闭
+2026-01-26 15:58:25,836 - INFO - [base_dialog.py:122 - click_multiple_button] - [click_button] 点击按钮：永久关闭
+2026-01-26 15:58:30,496 - INFO - [base_dialog.py:44 - _wait_any_dialog_present] - success 一个 弹窗 候选进入 DOM
+2026-01-26 15:58:30,499 - INFO - [base_dialog.py:63 - _find_dialogs] - 找到 1 个 弹窗 候选
+2026-01-26 15:58:30,502 - ERROR - [base_dialog.py:91 - get_top_dialog] - [get_top_dialog] 没有弹窗可用！
+2026-01-26 15:58:30,503 - ERROR - [base_dialog.py:117 - click_multiple_button] - [click_button] 没有弹窗可点击按钮
+2026-01-26 15:58:30,703 - ERROR - [conftest.py:140 - log_exception_detail] - ======== 用例执行失败 ========
+2026-01-26 15:58:30,703 - ERROR - [conftest.py:141 - log_exception_detail] - 用例节点: test_login.py::TestLogin::test1
+2026-01-26 15:58:30,703 - ERROR - [conftest.py:142 - log_exception_detail] - 异常类型: Exception
+2026-01-26 15:58:30,703 - ERROR - [conftest.py:143 - log_exception_detail] - 异常信息: [click_button] 没有弹窗可点击按钮
+2026-01-26 15:58:30,703 - ERROR - [conftest.py:146 - log_exception_detail] - -------- Pytest Traceback --------
+2026-01-26 15:58:30,704 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\runner.py, 行号: 345, 函数: from_call
+2026-01-26 15:58:30,704 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\runner.py, 行号: 266, 函数: <lambda>
+2026-01-26 15:58:30,704 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_hooks.py, 行号: 500, 函数: __call__
+2026-01-26 15:58:30,704 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_manager.py, 行号: 118, 函数: _hookexec
+2026-01-26 15:58:30,705 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 180, 函数: _multicall
+2026-01-26 15:58:30,705 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_result.py, 行号: 98, 函数: get_result
+2026-01-26 15:58:30,705 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-26 15:58:30,706 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\threadexception.py, 行号: 86, 函数: pytest_runtest_call
+2026-01-26 15:58:30,706 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\threadexception.py, 行号: 62, 函数: thread_exception_runtest_hook
+2026-01-26 15:58:30,706 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-26 15:58:30,706 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\unraisableexception.py, 行号: 89, 函数: pytest_runtest_call
+2026-01-26 15:58:30,707 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\unraisableexception.py, 行号: 64, 函数: unraisable_exception_runtest_hook
+2026-01-26 15:58:30,707 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-26 15:58:30,707 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\logging.py, 行号: 838, 函数: pytest_runtest_call
+2026-01-26 15:58:30,707 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\logging.py, 行号: 821, 函数: _runtest_for
+2026-01-26 15:58:30,708 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-26 15:58:30,708 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\capture.py, 行号: 881, 函数: pytest_runtest_call
+2026-01-26 15:58:30,708 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-26 15:58:30,708 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\skipping.py, 行号: 255, 函数: pytest_runtest_call
+2026-01-26 15:58:30,709 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 101, 函数: _multicall
+2026-01-26 15:58:30,709 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\runner.py, 行号: 181, 函数: pytest_runtest_call
+2026-01-26 15:58:30,709 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\runner.py, 行号: 173, 函数: pytest_runtest_call
+2026-01-26 15:58:30,710 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\python.py, 行号: 1830, 函数: runtest
+2026-01-26 15:58:30,710 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_hooks.py, 行号: 500, 函数: __call__
+2026-01-26 15:58:30,710 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_manager.py, 行号: 118, 函数: _hookexec
+2026-01-26 15:58:30,710 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 137, 函数: _multicall
+2026-01-26 15:58:30,711 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 101, 函数: _multicall
+2026-01-26 15:58:30,711 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\python.py, 行号: 193, 函数: pytest_pyfunc_call
+2026-01-26 15:58:30,711 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: C:\Users\shi\Desktop\pom_web_ui\test_case\test_login.py, 行号: 52, 函数: test1
+2026-01-26 15:58:30,711 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: C:\Users\shi\Desktop\pom_web_ui\pages\project\report_editor\dialogs\synchronization_dialog.py, 行号: 9, 函数: synchronization
+2026-01-26 15:58:30,712 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: C:\Users\shi\Desktop\pom_web_ui\common\widgets\base_dialog.py, 行号: 117, 函数: click_multiple_button
+2026-01-26 15:58:30,712 - ERROR - [conftest.py:154 - log_exception_detail] - -------- 原生 Python Traceback --------
+2026-01-26 15:58:30,716 - ERROR - [conftest.py:155 - log_exception_detail] - Traceback (most recent call last):
+  File "E:\Python\python312\Lib\site-packages\_pytest\runner.py", line 346, in from_call
+    result: Optional[TResult] = func()
+                                ^^^^^^
+  File "E:\Python\python312\Lib\site-packages\_pytest\runner.py", line 267, in <lambda>
+    lambda: ihook(item=item, **kwds), when=when, reraise=reraise
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_hooks.py", line 501, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_manager.py", line 119, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 181, in _multicall
+    return outcome.get_result()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_result.py", line 99, in get_result
+    raise exc.with_traceback(exc.__traceback__)
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\threadexception.py", line 87, in pytest_runtest_call
+    yield from thread_exception_runtest_hook()
+  File "E:\Python\python312\Lib\site-packages\_pytest\threadexception.py", line 63, in thread_exception_runtest_hook
+    yield
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\unraisableexception.py", line 90, in pytest_runtest_call
+    yield from unraisable_exception_runtest_hook()
+  File "E:\Python\python312\Lib\site-packages\_pytest\unraisableexception.py", line 65, in unraisable_exception_runtest_hook
+    yield
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\logging.py", line 839, in pytest_runtest_call
+    yield from self._runtest_for(item, "call")
+  File "E:\Python\python312\Lib\site-packages\_pytest\logging.py", line 822, in _runtest_for
+    yield
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\capture.py", line 882, in pytest_runtest_call
+    return (yield)
+            ^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\skipping.py", line 256, in pytest_runtest_call
+    return (yield)
+            ^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 102, in _multicall
+    res = hook_impl.function(*args)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\_pytest\runner.py", line 182, in pytest_runtest_call
+    raise e
+  File "E:\Python\python312\Lib\site-packages\_pytest\runner.py", line 174, in pytest_runtest_call
+    item.runtest()
+  File "E:\Python\python312\Lib\site-packages\_pytest\python.py", line 1831, in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+  File "E:\Python\python312\Lib\site-packages\pluggy\_hooks.py", line 501, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_manager.py", line 119, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 138, in _multicall
+    raise exception.with_traceback(exception.__traceback__)
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 102, in _multicall
+    res = hook_impl.function(*args)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\_pytest\python.py", line 194, in pytest_pyfunc_call
+    result = testfunction(**testargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shi\Desktop\pom_web_ui\test_case\test_login.py", line 53, in test1
+    synchronization_dialog.synchronization()
+  File "C:\Users\shi\Desktop\pom_web_ui\pages\project\report_editor\dialogs\synchronization_dialog.py", line 10, in synchronization
+    self.click_multiple_button("同 步")
+  File "C:\Users\shi\Desktop\pom_web_ui\common\widgets\base_dialog.py", line 118, in click_multiple_button
+    raise Exception("[click_button] 没有弹窗可点击按钮")
+Exception: [click_button] 没有弹窗可点击按钮
+
+2026-01-26 15:58:30,716 - ERROR - [conftest.py:168 - log_exception_detail] - ================================
+2026-01-26 15:58:30,775 - ERROR - [conftest.py:213 - pytest_runtest_makereport] - 已保存失败截图：C:\Users\shi\Desktop\pom_web_ui\screenshot\1_1769414310.jpg
+2026-01-26 16:13:34,232 - INFO - [login_page.py:29 - open_login_page] - 打开登录页面url :http://192.168.31.129
+2026-01-26 16:13:34,283 - INFO - [input.py:40 - _wait_any_input_present] - success 一个输入框: 用户名 候选进入 DOM
+2026-01-26 16:13:34,301 - INFO - [input.py:60 - _find_inputs] - 找到 1 个按钮候选: 用户名
+2026-01-26 16:13:34,308 - INFO - [input.py:67 - _wait_any_visible_from_elements] - 输入框可见：<selenium.webdriver.remote.webelement.WebElement (session="92b32d7da9cb61c2932f9e80d14670d0", element="f.88CB519AC6DB275BC5CEB6D738A55443.d.C0D5EEC048BE57F3E7D05C2B05D53252.e.279")>
+2026-01-26 16:13:34,313 - INFO - [base_page.py:122 - wait_first_visible] - success 元素:用户名 已可见: <selenium.webdriver.remote.webelement.WebElement (session="92b32d7da9cb61c2932f9e80d14670d0", element="f.88CB519AC6DB275BC5CEB6D738A55443.d.C0D5EEC048BE57F3E7D05C2B05D53252.e.279")>
+2026-01-26 16:13:34,389 - INFO - [base_page.py:371 - input] - success 输入：用户名: -> shi
+<selenium.webdriver.remote.webelement.WebElement (session="92b32d7da9cb61c2932f9e80d14670d0", element="f.88CB519AC6DB275BC5CEB6D738A55443.d.C0D5EEC048BE57F3E7D05C2B05D53252.e.279")>
+2026-01-26 16:13:34,411 - INFO - [input.py:40 - _wait_any_input_present] - success 一个输入框: 密码 候选进入 DOM
+2026-01-26 16:13:34,438 - INFO - [input.py:60 - _find_inputs] - 找到 2 个按钮候选: 密码
+2026-01-26 16:13:34,445 - INFO - [input.py:67 - _wait_any_visible_from_elements] - 输入框可见：<selenium.webdriver.remote.webelement.WebElement (session="92b32d7da9cb61c2932f9e80d14670d0", element="f.88CB519AC6DB275BC5CEB6D738A55443.d.C0D5EEC048BE57F3E7D05C2B05D53252.e.295")>
+2026-01-26 16:13:34,448 - INFO - [base_page.py:122 - wait_first_visible] - success 元素:密码 已可见: <selenium.webdriver.remote.webelement.WebElement (session="92b32d7da9cb61c2932f9e80d14670d0", element="f.88CB519AC6DB275BC5CEB6D738A55443.d.C0D5EEC048BE57F3E7D05C2B05D53252.e.295")>
+2026-01-26 16:13:34,515 - INFO - [base_page.py:371 - input] - success 输入：密码: -> 2ws4rf6yh
+<selenium.webdriver.remote.webelement.WebElement (session="92b32d7da9cb61c2932f9e80d14670d0", element="f.88CB519AC6DB275BC5CEB6D738A55443.d.C0D5EEC048BE57F3E7D05C2B05D53252.e.295")>
+2026-01-26 16:13:34,535 - INFO - [button.py:42 - _wait_any_button_present] - success 一个按钮: 登 录 候选进入 DOM
+2026-01-26 16:13:34,572 - INFO - [button.py:66 - _find_buttons] - 找到 1 个按钮候选: 登 录
+2026-01-26 16:13:34,580 - INFO - [button.py:73 - _wait_any_clickable_from_elements] - 按钮可点击：<selenium.webdriver.remote.webelement.WebElement (session="92b32d7da9cb61c2932f9e80d14670d0", element="f.88CB519AC6DB275BC5CEB6D738A55443.d.C0D5EEC048BE57F3E7D05C2B05D53252.e.311")>
+2026-01-26 16:13:34,586 - INFO - [base_page.py:265 - wait_first_clickable] - success 元素: 登 录 可点击: <selenium.webdriver.remote.webelement.WebElement (session="92b32d7da9cb61c2932f9e80d14670d0", element="f.88CB519AC6DB275BC5CEB6D738A55443.d.C0D5EEC048BE57F3E7D05C2B05D53252.e.311")>
+2026-01-26 16:13:34,629 - INFO - [base_page.py:358 - click] - success 点击：登 录
+2026-01-26 16:13:35,206 - INFO - [base_page.py:153 - wait_any_visible] - success 已找到任意一个可见元素：: ['By.XPATH', "//span[contains(text(), '登录成功')]"]
+2026-01-26 16:13:37,441 - INFO - [base_page.py:313 - wait_invisibility] - success 元素: 已消失：['By.XPATH', "//span[contains(text(), '登录成功')]"]
+2026-01-26 16:13:37,479 - INFO - [button.py:42 - _wait_any_button_present] - success 一个按钮: 数字阅片 候选进入 DOM
+2026-01-26 16:13:37,507 - INFO - [button.py:66 - _find_buttons] - 找到 1 个按钮候选: 数字阅片
+2026-01-26 16:13:37,514 - INFO - [button.py:73 - _wait_any_clickable_from_elements] - 按钮可点击：<selenium.webdriver.remote.webelement.WebElement (session="92b32d7da9cb61c2932f9e80d14670d0", element="f.88CB519AC6DB275BC5CEB6D738A55443.d.C0D5EEC048BE57F3E7D05C2B05D53252.e.593")>
+2026-01-26 16:13:37,521 - INFO - [base_page.py:265 - wait_first_clickable] - success 元素: 数字阅片 可点击: <selenium.webdriver.remote.webelement.WebElement (session="92b32d7da9cb61c2932f9e80d14670d0", element="f.88CB519AC6DB275BC5CEB6D738A55443.d.C0D5EEC048BE57F3E7D05C2B05D53252.e.593")>
+2026-01-26 16:13:37,580 - INFO - [base_page.py:358 - click] - success 点击：数字阅片
+2026-01-26 16:13:37,595 - INFO - [button.py:42 - _wait_any_button_present] - success 一个按钮: 全部待办 候选进入 DOM
+2026-01-26 16:13:37,631 - INFO - [button.py:66 - _find_buttons] - 找到 1 个按钮候选: 全部待办
+2026-01-26 16:13:37,638 - INFO - [button.py:73 - _wait_any_clickable_from_elements] - 按钮可点击：<selenium.webdriver.remote.webelement.WebElement (session="92b32d7da9cb61c2932f9e80d14670d0", element="f.88CB519AC6DB275BC5CEB6D738A55443.d.C0D5EEC048BE57F3E7D05C2B05D53252.e.853")>
+2026-01-26 16:13:37,644 - INFO - [base_page.py:265 - wait_first_clickable] - success 元素: 全部待办 可点击: <selenium.webdriver.remote.webelement.WebElement (session="92b32d7da9cb61c2932f9e80d14670d0", element="f.88CB519AC6DB275BC5CEB6D738A55443.d.C0D5EEC048BE57F3E7D05C2B05D53252.e.853")>
+2026-01-26 16:13:37,745 - INFO - [base_page.py:358 - click] - success 点击：全部待办
+2026-01-26 16:13:37,811 - INFO - [base_page.py:92 - wait_element_present] - success 元素： ['By.XPATH', "//div[contains(@class, 'custom-ant-table-header')]/table"] 已存在
+2026-01-26 16:13:37,820 - INFO - [base_page.py:207 - find_in_all] - success 在父元素 已经找到 所有子元素： ['By.XPATH', './/thead/tr/th']
+2026-01-26 16:13:37,829 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 标识
+2026-01-26 16:13:37,832 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 病例号
+2026-01-26 16:13:37,834 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 姓名
+2026-01-26 16:13:37,842 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 涂片片号
+2026-01-26 16:13:37,845 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 申请单号
+2026-01-26 16:13:37,847 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 玻片总数
+2026-01-26 16:13:37,850 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 报告人
+2026-01-26 16:13:37,852 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 审核人
+2026-01-26 16:13:37,862 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 项目创建时间
+2026-01-26 16:13:37,865 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 项目类型
+2026-01-26 16:13:37,867 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 项目状态
+2026-01-26 16:13:37,870 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 操作
+2026-01-26 16:13:37,879 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 
+2026-01-26 16:13:37,895 - INFO - [base_page.py:153 - wait_any_visible] - success 已找到任意一个可见元素：: ['By.XPATH', "//div[contains(@class, 'custom-ant-table-body')]/table"]
+2026-01-26 16:13:37,902 - INFO - [base_page.py:207 - find_in_all] - success 在父元素 已经找到 所有子元素： ['By.XPATH', './/tbody/tr']
+2026-01-26 16:13:37,913 - INFO - [base_page.py:207 - find_in_all] - success 在父元素 已经找到 所有子元素： ['By.XPATH', './/td']
+2026-01-26 16:13:37,914 - INFO - [base_table.py:186 - find_row_by_conditions] - 9, ......12
+2026-01-26 16:13:37,920 - INFO - [base_page.py:432 - get_text] - success 获取 text 属性： | text -> 
+2026-01-26 16:13:37,930 - INFO - [base_page.py:207 - find_in_all] - success 在父元素 已经找到 所有子元素： ['By.XPATH', './/div|.//span|.//a|.//button']
+2026-01-26 16:13:37,959 - INFO - [base_page.py:207 - find_in_all] - success 在父元素 已经找到 所有子元素： ['By.XPATH', './/td']
+2026-01-26 16:13:37,959 - INFO - [base_table.py:186 - find_row_by_conditions] - 9, ......12
+2026-01-26 16:13:37,979 - INFO - [base_page.py:432 - get_text] - success 获取 text 属性： | text -> 骨髓
+2026-01-26 16:13:37,980 - INFO - [base_table.py:186 - find_row_by_conditions] - 10, ......12
+2026-01-26 16:13:37,984 - INFO - [base_page.py:432 - get_text] - success 获取 text 属性： | text -> 待查看
+2026-01-26 16:13:37,984 - INFO - [base_table.py:193 - find_row_by_conditions] - [find_rows] conditions={'项目类型': '骨髓', '项目状态': '待查看'} -> idxs=1
+2026-01-26 16:13:37,993 - INFO - [base_page.py:92 - wait_element_present] - success 元素： ['By.XPATH', "//div[contains(@class, 'custom-ant-table-header')]/table"] 已存在
+2026-01-26 16:13:37,997 - INFO - [base_page.py:207 - find_in_all] - success 在父元素 已经找到 所有子元素： ['By.XPATH', './/thead/tr/th']
+2026-01-26 16:13:38,000 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 标识
+2026-01-26 16:13:38,002 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 病例号
+2026-01-26 16:13:38,010 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 姓名
+2026-01-26 16:13:38,012 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 涂片片号
+2026-01-26 16:13:38,015 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 申请单号
+2026-01-26 16:13:38,017 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 玻片总数
+2026-01-26 16:13:38,020 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 报告人
+2026-01-26 16:13:38,027 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 审核人
+2026-01-26 16:13:38,030 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 项目创建时间
+2026-01-26 16:13:38,033 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 项目类型
+2026-01-26 16:13:38,034 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 项目状态
+2026-01-26 16:13:38,038 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 操作
+2026-01-26 16:13:38,042 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | title -> 
+2026-01-26 16:13:38,046 - INFO - [base_page.py:207 - find_in_all] - success 在父元素 已经找到 所有子元素： ['By.XPATH', './/td']
+2026-01-26 16:13:38,050 - INFO - [base_page.py:432 - get_text] - success 获取 text 属性： | text -> 打开
+预览报告
+2026-01-26 16:13:38,060 - INFO - [base_page.py:207 - find_in_all] - success 在父元素 已经找到 所有子元素： ['By.XPATH', './/div|.//span|.//a|.//button']
+2026-01-26 16:13:38,071 - INFO - [base_page.py:444 - scroll_to_element] - success 滚动到指定列的可视区域
+2026-01-26 16:13:38,079 - INFO - [base_page.py:265 - wait_first_clickable] - success 元素: None 可点击: <selenium.webdriver.remote.webelement.WebElement (session="92b32d7da9cb61c2932f9e80d14670d0", element="f.88CB519AC6DB275BC5CEB6D738A55443.d.C0D5EEC048BE57F3E7D05C2B05D53252.e.1061")>
+2026-01-26 16:13:38,435 - INFO - [base_page.py:358 - click] - success 点击：<selenium.webdriver.remote.webelement.WebElement (session="92b32d7da9cb61c2932f9e80d14670d0", element="f.88CB519AC6DB275BC5CEB6D738A55443.d.C0D5EEC048BE57F3E7D05C2B05D53252.e.1061")>
+2026-01-26 16:13:39,251 - INFO - [button.py:42 - _wait_any_button_present] - success 一个按钮: 填写报告 候选进入 DOM
+2026-01-26 16:13:39,383 - INFO - [button.py:66 - _find_buttons] - 找到 1 个按钮候选: 填写报告
+2026-01-26 16:13:39,429 - INFO - [button.py:73 - _wait_any_clickable_from_elements] - 按钮可点击：<selenium.webdriver.remote.webelement.WebElement (session="92b32d7da9cb61c2932f9e80d14670d0", element="f.88CB519AC6DB275BC5CEB6D738A55443.d.C0D5EEC048BE57F3E7D05C2B05D53252.e.4491")>
+2026-01-26 16:13:39,443 - INFO - [base_page.py:265 - wait_first_clickable] - success 元素: 填写报告 可点击: <selenium.webdriver.remote.webelement.WebElement (session="92b32d7da9cb61c2932f9e80d14670d0", element="f.88CB519AC6DB275BC5CEB6D738A55443.d.C0D5EEC048BE57F3E7D05C2B05D53252.e.4491")>
+2026-01-26 16:13:39,544 - INFO - [base_page.py:358 - click] - success 点击：填写报告
+2026-01-26 16:13:44,461 - INFO - [base_dialog.py:44 - _wait_any_dialog_present] - success 一个 弹窗 候选进入 DOM
+2026-01-26 16:13:44,466 - INFO - [base_dialog.py:63 - _find_dialogs] - 找到 1 个 弹窗 候选
+2026-01-26 16:13:44,477 - INFO - [base_dialog.py:82 - _get_visible_dialogs_z_index] - [_get_visible_dialogs_z_index] 获取到弹窗数量：1, 弹窗：[(<selenium.webdriver.remote.webelement.WebElement (session="92b32d7da9cb61c2932f9e80d14670d0", element="f.88CB519AC6DB275BC5CEB6D738A55443.d.C0D5EEC048BE57F3E7D05C2B05D53252.e.6647")>, 1000)]
+2026-01-26 16:13:44,506 - INFO - [button.py:42 - _wait_any_button_present] - success 一个按钮: 永久关闭 候选进入 DOM
+2026-01-26 16:13:44,513 - INFO - [base_page.py:207 - find_in_all] - success 在父元素 已经找到 所有子元素： 永久关闭
+2026-01-26 16:13:44,522 - INFO - [base_page.py:207 - find_in_all] - success 在父元素 已经找到 所有子元素： 永久关闭
+2026-01-26 16:13:44,529 - INFO - [base_page.py:207 - find_in_all] - success 在父元素 已经找到 所有子元素： 永久关闭
+2026-01-26 16:13:44,540 - INFO - [base_page.py:207 - find_in_all] - success 在父元素 已经找到 所有子元素： 永久关闭
+2026-01-26 16:13:44,546 - INFO - [base_page.py:207 - find_in_all] - success 在父元素 已经找到 所有子元素： 永久关闭
+2026-01-26 16:13:44,555 - INFO - [base_page.py:207 - find_in_all] - success 在父元素 已经找到 所有子元素： 永久关闭
+2026-01-26 16:13:44,555 - INFO - [button.py:66 - _find_buttons] - 找到 1 个按钮候选: 永久关闭
+2026-01-26 16:13:44,563 - INFO - [button.py:73 - _wait_any_clickable_from_elements] - 按钮可点击：<selenium.webdriver.remote.webelement.WebElement (session="92b32d7da9cb61c2932f9e80d14670d0", element="f.88CB519AC6DB275BC5CEB6D738A55443.d.C0D5EEC048BE57F3E7D05C2B05D53252.e.6635")>
+2026-01-26 16:13:44,568 - INFO - [base_page.py:265 - wait_first_clickable] - success 元素: 永久关闭 可点击: <selenium.webdriver.remote.webelement.WebElement (session="92b32d7da9cb61c2932f9e80d14670d0", element="f.88CB519AC6DB275BC5CEB6D738A55443.d.C0D5EEC048BE57F3E7D05C2B05D53252.e.6635")>
+2026-01-26 16:13:44,597 - INFO - [base_page.py:358 - click] - success 点击：永久关闭
+2026-01-26 16:13:44,597 - INFO - [base_dialog.py:122 - click_multiple_button] - [click_button] 点击按钮：永久关闭
+2026-01-26 16:13:44,597 - INFO - [base_dialog.py:142 - click_with_log] - 点击 [永久关闭] 按钮成功
+2026-01-26 16:13:52,368 - INFO - [base_dialog.py:44 - _wait_any_dialog_present] - success 一个 弹窗 候选进入 DOM
+2026-01-26 16:13:52,374 - INFO - [base_dialog.py:63 - _find_dialogs] - 找到 1 个 弹窗 候选
+2026-01-26 16:13:52,377 - ERROR - [base_dialog.py:91 - get_top_dialog] - [get_top_dialog] 没有弹窗可用！
+2026-01-26 16:13:52,378 - WARNING - [base_dialog.py:117 - click_multiple_button] - [click_button] 当前无弹窗
+2026-01-26 16:13:52,378 - INFO - [base_dialog.py:146 - click_with_log] - 当前无 [同步] 弹窗，跳过
+2026-01-26 16:13:55,196 - INFO - [input.py:40 - _wait_any_input_present] - success 一个输入框: 髓象分析 候选进入 DOM
+2026-01-26 16:13:55,223 - INFO - [input.py:60 - _find_inputs] - 找到 1 个按钮候选: 髓象分析
+2026-01-26 16:13:55,227 - INFO - [input.py:67 - _wait_any_visible_from_elements] - 输入框可见：<selenium.webdriver.remote.webelement.WebElement (session="92b32d7da9cb61c2932f9e80d14670d0", element="f.88CB519AC6DB275BC5CEB6D738A55443.d.C0D5EEC048BE57F3E7D05C2B05D53252.e.7187")>
+2026-01-26 16:13:55,230 - INFO - [base_page.py:122 - wait_first_visible] - success 元素:髓象分析 已可见: <selenium.webdriver.remote.webelement.WebElement (session="92b32d7da9cb61c2932f9e80d14670d0", element="f.88CB519AC6DB275BC5CEB6D738A55443.d.C0D5EEC048BE57F3E7D05C2B05D53252.e.7187")>
+2026-01-26 16:13:57,498 - INFO - [base_page.py:371 - input] - success 输入：髓象分析: -> 1.骨髓小粒丰富，取材、制片、染色佳。
+        2.骨髓有核细胞增生极度活跃，粒红比=1.37:1。
+        3.粒系增生活跃，占49.5%，以中性晚幼粒及以下细胞增生为主，可见细胞巨幼变，巨晚幼粒细胞、巨杆状核粒细胞易见。
+        4.红系增生活跃，占36.0%，以中、晚幼红细胞增生为主，幼红细胞巨幼变明显，成熟红细胞大小不均，巨红细胞易见。
+        5.单核细胞占1.0%，淋巴细胞占12.5%，浆细胞占0.7%，均为成熟细胞。
+        6.巨核细胞全片计数0个，分类25个，其中产血小板型巨核细胞0个，血小板小簇可见。
+<selenium.webdriver.remote.webelement.WebElement (session="92b32d7da9cb61c2932f9e80d14670d0", element="f.88CB519AC6DB275BC5CEB6D738A55443.d.C0D5EEC048BE57F3E7D05C2B05D53252.e.7187")>
+2026-01-26 16:13:58,212 - INFO - [input.py:40 - _wait_any_input_present] - success 一个输入框: 血象分析 候选进入 DOM
+2026-01-26 16:13:58,239 - INFO - [input.py:60 - _find_inputs] - 找到 1 个按钮候选: 血象分析
+2026-01-26 16:13:58,243 - INFO - [input.py:67 - _wait_any_visible_from_elements] - 输入框可见：<selenium.webdriver.remote.webelement.WebElement (session="92b32d7da9cb61c2932f9e80d14670d0", element="f.88CB519AC6DB275BC5CEB6D738A55443.d.C0D5EEC048BE57F3E7D05C2B05D53252.e.7196")>
+2026-01-26 16:13:58,246 - INFO - [base_page.py:122 - wait_first_visible] - success 元素:血象分析 已可见: <selenium.webdriver.remote.webelement.WebElement (session="92b32d7da9cb61c2932f9e80d14670d0", element="f.88CB519AC6DB275BC5CEB6D738A55443.d.C0D5EEC048BE57F3E7D05C2B05D53252.e.7196")>
+2026-01-26 16:13:58,473 - INFO - [base_page.py:371 - input] - success 输入：血象分析: -> 提示巨幼细胞性贫血骨髓象，请结合叶酸、VB12检查
+<selenium.webdriver.remote.webelement.WebElement (session="92b32d7da9cb61c2932f9e80d14670d0", element="f.88CB519AC6DB275BC5CEB6D738A55443.d.C0D5EEC048BE57F3E7D05C2B05D53252.e.7196")>
+2026-01-26 16:13:59,199 - INFO - [input.py:40 - _wait_any_input_present] - success 一个输入框: 诊断意见 候选进入 DOM
+2026-01-26 16:13:59,228 - INFO - [input.py:60 - _find_inputs] - 找到 1 个按钮候选: 诊断意见
+2026-01-26 16:13:59,231 - INFO - [input.py:67 - _wait_any_visible_from_elements] - 输入框可见：<selenium.webdriver.remote.webelement.WebElement (session="92b32d7da9cb61c2932f9e80d14670d0", element="f.88CB519AC6DB275BC5CEB6D738A55443.d.C0D5EEC048BE57F3E7D05C2B05D53252.e.7205")>
+2026-01-26 16:13:59,234 - INFO - [base_page.py:122 - wait_first_visible] - success 元素:诊断意见 已可见: <selenium.webdriver.remote.webelement.WebElement (session="92b32d7da9cb61c2932f9e80d14670d0", element="f.88CB519AC6DB275BC5CEB6D738A55443.d.C0D5EEC048BE57F3E7D05C2B05D53252.e.7205")>
+2026-01-26 16:13:59,455 - INFO - [base_page.py:371 - input] - success 输入：诊断意见: -> 提示巨幼细胞性贫血骨髓象，请结合叶酸、VB12检查
+<selenium.webdriver.remote.webelement.WebElement (session="92b32d7da9cb61c2932f9e80d14670d0", element="f.88CB519AC6DB275BC5CEB6D738A55443.d.C0D5EEC048BE57F3E7D05C2B05D53252.e.7205")>
+2026-01-26 16:14:00,107 - INFO - [select.py:56 - _wait_any_select_present] - success 一个输入框: 检验医师 候选进入 DOM
+2026-01-26 16:14:00,117 - INFO - [select.py:75 - _find_selects] - 找到 2 个按钮候选: 检验医师
+2026-01-26 16:14:00,125 - INFO - [select.py:84 - _wait_any_clickable_from_elements] - 下拉框可点击：<selenium.webdriver.remote.webelement.WebElement (session="92b32d7da9cb61c2932f9e80d14670d0", element="f.88CB519AC6DB275BC5CEB6D738A55443.d.C0D5EEC048BE57F3E7D05C2B05D53252.e.7217")>
+2026-01-26 16:14:00,131 - INFO - [base_page.py:265 - wait_first_clickable] - success 元素: None 可点击: <selenium.webdriver.remote.webelement.WebElement (session="92b32d7da9cb61c2932f9e80d14670d0", element="f.88CB519AC6DB275BC5CEB6D738A55443.d.C0D5EEC048BE57F3E7D05C2B05D53252.e.7217")>
+2026-01-26 16:14:00,172 - INFO - [base_page.py:358 - click] - success 点击：<selenium.webdriver.remote.webelement.WebElement (session="92b32d7da9cb61c2932f9e80d14670d0", element="f.88CB519AC6DB275BC5CEB6D738A55443.d.C0D5EEC048BE57F3E7D05C2B05D53252.e.7217")>
+2026-01-26 16:14:00,173 - INFO - [select.py:94 - _open] - [_open] 下拉框展开：None
+2026-01-26 16:14:00,693 - INFO - [base_page.py:265 - wait_first_clickable] - success 元素: None 可点击: ['By.XPATH', "//div[contains(@class, 'ant-select-dropdown ant-select-dropdown--single') and not (contains(@style, 'none'))]//ul[@role='listbox']/li[@title='shi']"]
+2026-01-26 16:14:00,729 - INFO - [base_page.py:358 - click] - success 点击：['By.XPATH', "//div[contains(@class, 'ant-select-dropdown ant-select-dropdown--single') and not (contains(@style, 'none'))]//ul[@role='listbox']/li[@title='shi']"]
+2026-01-26 16:14:01,048 - INFO - [base_page.py:313 - wait_invisibility] - success 元素: 已消失：['By.XPATH', "//div[contains(@class, 'ant-select-dropdown ant-select-dropdown--single') and not (contains(@style, 'none'))]//ul[@role='listbox']/li[@title='shi']"]
+2026-01-26 16:14:01,049 - INFO - [select.py:102 - _choose] - [_choose] 下拉框选择：shi, 并等待下拉框消失
+2026-01-26 16:14:01,778 - INFO - [select.py:56 - _wait_any_select_present] - success 一个输入框: 审核医师 候选进入 DOM
+2026-01-26 16:14:01,790 - INFO - [select.py:75 - _find_selects] - 找到 2 个按钮候选: 审核医师
+2026-01-26 16:14:01,796 - INFO - [select.py:84 - _wait_any_clickable_from_elements] - 下拉框可点击：<selenium.webdriver.remote.webelement.WebElement (session="92b32d7da9cb61c2932f9e80d14670d0", element="f.88CB519AC6DB275BC5CEB6D738A55443.d.C0D5EEC048BE57F3E7D05C2B05D53252.e.7250")>
+2026-01-26 16:14:01,802 - INFO - [base_page.py:265 - wait_first_clickable] - success 元素: None 可点击: <selenium.webdriver.remote.webelement.WebElement (session="92b32d7da9cb61c2932f9e80d14670d0", element="f.88CB519AC6DB275BC5CEB6D738A55443.d.C0D5EEC048BE57F3E7D05C2B05D53252.e.7250")>
+2026-01-26 16:14:01,848 - INFO - [base_page.py:358 - click] - success 点击：<selenium.webdriver.remote.webelement.WebElement (session="92b32d7da9cb61c2932f9e80d14670d0", element="f.88CB519AC6DB275BC5CEB6D738A55443.d.C0D5EEC048BE57F3E7D05C2B05D53252.e.7250")>
+2026-01-26 16:14:01,848 - INFO - [select.py:94 - _open] - [_open] 下拉框展开：None
+2026-01-26 16:14:02,401 - INFO - [base_page.py:265 - wait_first_clickable] - success 元素: None 可点击: ['By.XPATH', "//div[contains(@class, 'ant-select-dropdown ant-select-dropdown--single') and not (contains(@style, 'none'))]//ul[@role='listbox']/li[@title='shi2']"]
+2026-01-26 16:14:02,457 - INFO - [base_page.py:358 - click] - success 点击：['By.XPATH', "//div[contains(@class, 'ant-select-dropdown ant-select-dropdown--single') and not (contains(@style, 'none'))]//ul[@role='listbox']/li[@title='shi2']"]
+2026-01-26 16:14:02,778 - INFO - [base_page.py:313 - wait_invisibility] - success 元素: 已消失：['By.XPATH', "//div[contains(@class, 'ant-select-dropdown ant-select-dropdown--single') and not (contains(@style, 'none'))]//ul[@role='listbox']/li[@title='shi2']"]
+2026-01-26 16:14:02,778 - INFO - [select.py:102 - _choose] - [_choose] 下拉框选择：shi2, 并等待下拉框消失
+2026-01-26 16:14:03,480 - INFO - [date_picker.py:93 - _wait_any_date_picker_present] - success 一个 时间控件 : 审核时间 候选进入 DOM
+2026-01-26 16:14:03,507 - INFO - [date_picker.py:112 - _find_date_pickers] - 找到 4 个 时间控件 按钮候选: 审核时间
+2026-01-26 16:14:03,513 - INFO - [date_picker.py:121 - _wait_any_clickable_from_elements] - 时间控件 可点击：<selenium.webdriver.remote.webelement.WebElement (session="92b32d7da9cb61c2932f9e80d14670d0", element="f.88CB519AC6DB275BC5CEB6D738A55443.d.C0D5EEC048BE57F3E7D05C2B05D53252.e.7232")>
+2026-01-26 16:14:03,519 - INFO - [base_page.py:92 - wait_element_present] - success 元素： ['By.XPATH', "//label[contains(text(),'审核时间')]/ancestor::div[1]/following-sibling::div[1]//span"] 已存在
+2026-01-26 16:14:03,523 - INFO - [base_page.py:416 - get_attr] - success 获取属性： | value -> 1576080000000
+2026-01-26 16:14:03,523 - INFO - [date_picker.py:217 - get_selected_date] - [get_selected_date] 获取时间控件： 审核时间 的时间为：2019-12-12
+2026-01-26 16:14:03,529 - INFO - [base_page.py:265 - wait_first_clickable] - success 元素: None 可点击: <selenium.webdriver.remote.webelement.WebElement (session="92b32d7da9cb61c2932f9e80d14670d0", element="f.88CB519AC6DB275BC5CEB6D738A55443.d.C0D5EEC048BE57F3E7D05C2B05D53252.e.7232")>
+2026-01-26 16:14:03,594 - INFO - [base_page.py:358 - click] - success 点击：<selenium.webdriver.remote.webelement.WebElement (session="92b32d7da9cb61c2932f9e80d14670d0", element="f.88CB519AC6DB275BC5CEB6D738A55443.d.C0D5EEC048BE57F3E7D05C2B05D53252.e.7232")>
+2026-01-26 16:14:03,594 - INFO - [date_picker.py:131 - _open] - [_open] 下拉框展开：审核时间
+2026-01-26 16:14:04,133 - INFO - [base_page.py:265 - wait_first_clickable] - success 元素: None 可点击: ['By.XPATH', "//tbody[contains(@class, 'calendar-tbody')]//tr/td[not(contains(@class, 'month'))]/div[text()='12']"]
+2026-01-26 16:14:04,158 - INFO - [base_page.py:358 - click] - success 点击：['By.XPATH', "//tbody[contains(@class, 'calendar-tbody')]//tr/td[not(contains(@class, 'month'))]/div[text()='12']"]
+2026-01-26 16:14:04,159 - INFO - [date_picker.py:181 - _choose_day] - 选择日期：12
+2026-01-26 16:14:14,179 - ERROR - [base_page.py:316 - wait_invisibility] - timeout 元素: 未消失: ['By.XPATH', "//div[contains(@class, 'calendar-header')]//a[contains(@title, '上一年')]"]
+2026-01-26 16:14:14,417 - ERROR - [conftest.py:140 - log_exception_detail] - ======== 用例执行失败 ========
+2026-01-26 16:14:14,418 - ERROR - [conftest.py:141 - log_exception_detail] - 用例节点: test_login.py::TestLogin::test1
+2026-01-26 16:14:14,418 - ERROR - [conftest.py:142 - log_exception_detail] - 异常类型: TimeoutException
+2026-01-26 16:14:14,418 - ERROR - [conftest.py:143 - log_exception_detail] - 异常信息: Message: timeout 元素: 未消失: ['By.XPATH', "//div[contains(@class, 'calendar-header')]//a[contains(@title, '上一年')]"]
+
+2026-01-26 16:14:14,418 - ERROR - [conftest.py:146 - log_exception_detail] - -------- Pytest Traceback --------
+2026-01-26 16:14:14,418 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\runner.py, 行号: 345, 函数: from_call
+2026-01-26 16:14:14,419 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\runner.py, 行号: 266, 函数: <lambda>
+2026-01-26 16:14:14,419 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_hooks.py, 行号: 500, 函数: __call__
+2026-01-26 16:14:14,419 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_manager.py, 行号: 118, 函数: _hookexec
+2026-01-26 16:14:14,420 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 180, 函数: _multicall
+2026-01-26 16:14:14,420 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_result.py, 行号: 98, 函数: get_result
+2026-01-26 16:14:14,420 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-26 16:14:14,420 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\threadexception.py, 行号: 86, 函数: pytest_runtest_call
+2026-01-26 16:14:14,421 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\threadexception.py, 行号: 62, 函数: thread_exception_runtest_hook
+2026-01-26 16:14:14,421 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-26 16:14:14,421 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\unraisableexception.py, 行号: 89, 函数: pytest_runtest_call
+2026-01-26 16:14:14,421 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\unraisableexception.py, 行号: 64, 函数: unraisable_exception_runtest_hook
+2026-01-26 16:14:14,422 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-26 16:14:14,422 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\logging.py, 行号: 838, 函数: pytest_runtest_call
+2026-01-26 16:14:14,422 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\logging.py, 行号: 821, 函数: _runtest_for
+2026-01-26 16:14:14,422 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-26 16:14:14,422 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\capture.py, 行号: 881, 函数: pytest_runtest_call
+2026-01-26 16:14:14,423 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-26 16:14:14,423 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\skipping.py, 行号: 255, 函数: pytest_runtest_call
+2026-01-26 16:14:14,423 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 101, 函数: _multicall
+2026-01-26 16:14:14,423 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\runner.py, 行号: 181, 函数: pytest_runtest_call
+2026-01-26 16:14:14,424 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\runner.py, 行号: 173, 函数: pytest_runtest_call
+2026-01-26 16:14:14,424 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\python.py, 行号: 1830, 函数: runtest
+2026-01-26 16:14:14,424 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_hooks.py, 行号: 500, 函数: __call__
+2026-01-26 16:14:14,424 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_manager.py, 行号: 118, 函数: _hookexec
+2026-01-26 16:14:14,425 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 137, 函数: _multicall
+2026-01-26 16:14:14,425 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 101, 函数: _multicall
+2026-01-26 16:14:14,425 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\python.py, 行号: 193, 函数: pytest_pyfunc_call
+2026-01-26 16:14:14,425 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: C:\Users\shi\Desktop\pom_web_ui\test_case\test_login.py, 行号: 67, 函数: test1
+2026-01-26 16:14:14,426 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: C:\Users\shi\Desktop\pom_web_ui\pages\project\report_editor\report_editor_page.py, 行号: 78, 函数: select_reviewing_time
+2026-01-26 16:14:14,426 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: C:\Users\shi\Desktop\pom_web_ui\common\widgets\date_picker.py, 行号: 72, 函数: select_date
+2026-01-26 16:14:14,426 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: C:\Users\shi\Desktop\pom_web_ui\common\widgets\date_picker.py, 行号: 201, 函数: _choose
+2026-01-26 16:14:14,426 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: C:\Users\shi\Desktop\pom_web_ui\common\base_page.py, 行号: 316, 函数: wait_invisibility
+2026-01-26 16:14:14,427 - ERROR - [conftest.py:154 - log_exception_detail] - -------- 原生 Python Traceback --------
+2026-01-26 16:14:14,431 - ERROR - [conftest.py:155 - log_exception_detail] - Traceback (most recent call last):
+  File "C:\Users\shi\Desktop\pom_web_ui\common\base_page.py", line 310, in wait_invisibility
+    el = WebDriverWait(self.driver, timeout, poll_frequency=check_interval).until(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Python\python312\Lib\site-packages\_pytest\runner.py", line 346, in from_call
+    result: Optional[TResult] = func()
+                                ^^^^^^
+  File "E:\Python\python312\Lib\site-packages\_pytest\runner.py", line 267, in <lambda>
+    lambda: ihook(item=item, **kwds), when=when, reraise=reraise
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_hooks.py", line 501, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_manager.py", line 119, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 181, in _multicall
+    return outcome.get_result()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_result.py", line 99, in get_result
+    raise exc.with_traceback(exc.__traceback__)
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\threadexception.py", line 87, in pytest_runtest_call
+    yield from thread_exception_runtest_hook()
+  File "E:\Python\python312\Lib\site-packages\_pytest\threadexception.py", line 63, in thread_exception_runtest_hook
+    yield
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\unraisableexception.py", line 90, in pytest_runtest_call
+    yield from unraisable_exception_runtest_hook()
+  File "E:\Python\python312\Lib\site-packages\_pytest\unraisableexception.py", line 65, in unraisable_exception_runtest_hook
+    yield
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\logging.py", line 839, in pytest_runtest_call
+    yield from self._runtest_for(item, "call")
+  File "E:\Python\python312\Lib\site-packages\_pytest\logging.py", line 822, in _runtest_for
+    yield
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\capture.py", line 882, in pytest_runtest_call
+    return (yield)
+            ^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\skipping.py", line 256, in pytest_runtest_call
+    return (yield)
+            ^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 102, in _multicall
+    res = hook_impl.function(*args)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\_pytest\runner.py", line 182, in pytest_runtest_call
+    raise e
+  File "E:\Python\python312\Lib\site-packages\_pytest\runner.py", line 174, in pytest_runtest_call
+    item.runtest()
+  File "E:\Python\python312\Lib\site-packages\_pytest\python.py", line 1831, in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+  File "E:\Python\python312\Lib\site-packages\pluggy\_hooks.py", line 501, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_manager.py", line 119, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 138, in _multicall
+    raise exception.with_traceback(exception.__traceback__)
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 102, in _multicall
+    res = hook_impl.function(*args)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\_pytest\python.py", line 194, in pytest_pyfunc_call
+    result = testfunction(**testargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shi\Desktop\pom_web_ui\test_case\test_login.py", line 68, in test1
+    registry.ReportEditorPage.select_reviewing_time('2019-12-12')
+  File "C:\Users\shi\Desktop\pom_web_ui\pages\project\report_editor\report_editor_page.py", line 79, in select_reviewing_time
+    self.picker.select_date(self._PICKER_REVIEWING_TIME, date)
+  File "C:\Users\shi\Desktop\pom_web_ui\common\widgets\date_picker.py", line 73, in select_date
+    self._choose(value, value_end)
+  File "C:\Users\shi\Desktop\pom_web_ui\common\widgets\date_picker.py", line 202, in _choose
+    self.wait_invisibility(['By.XPATH', self.date_picker_location.get(self.date_picker_type, '')
+  File "C:\Users\shi\Desktop\pom_web_ui\common\base_page.py", line 317, in wait_invisibility
+    raise TimeoutException(f"timeout 元素:{msg} 未消失: {locator}")
+selenium.common.exceptions.TimeoutException: Message: timeout 元素: 未消失: ['By.XPATH', "//div[contains(@class, 'calendar-header')]//a[contains(@title, '上一年')]"]
+
+
+2026-01-26 16:14:14,431 - ERROR - [conftest.py:168 - log_exception_detail] - ================================
+2026-01-26 16:14:14,501 - ERROR - [conftest.py:213 - pytest_runtest_makereport] - 已保存失败截图：C:\Users\shi\Desktop\pom_web_ui\screenshot\1_1769415254.jpg

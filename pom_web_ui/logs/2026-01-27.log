@@ -1,0 +1,1011 @@
+2026-01-27 11:02:08,847 - ERROR - [conftest.py:140 - log_exception_detail] - ======== 用例执行失败 ========
+2026-01-27 11:02:08,848 - ERROR - [conftest.py:141 - log_exception_detail] - 用例节点: test_login.py::TestLogin::test1
+2026-01-27 11:02:08,848 - ERROR - [conftest.py:142 - log_exception_detail] - 异常类型: WebDriverException
+2026-01-27 11:02:08,848 - ERROR - [conftest.py:143 - log_exception_detail] - 异常信息: Message: unknown error: JavaScript code failed
+from unknown command: 'Runtime.evaluate' wasn't found
+  (Session info: chrome=144.0.7559.97)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7935388d5
+	0x7ff793538930
+	0x7ff79331165d
+	0x7ff7932fdc23
+	0x7ff7932fc3d4
+	0x7ff7932fcbcf
+	0x7ff793328937
+	0x7ff79331be25
+	0x7ff79331bcca
+	0x7ff7932ecb0d
+	0x7ff7932eadbb
+	0x7ff7933d31bf
+	0x7ff793391fda
+	0x7ff7933bac97
+	0x7ff79335ac29
+	0x7ff79335ba93
+	0x7ff793850620
+	0x7ff79384af60
+	0x7ff7938696c6
+	0x7ff793555dd4
+	0x7ff79355ed7c
+	0x7ff793541ff4
+	0x7ff7935421a5
+	0x7ff793527ed2
+	0x7fff280a7ac4
+	0x7fff2a88a8c1
+
+2026-01-27 11:02:08,849 - ERROR - [conftest.py:146 - log_exception_detail] - -------- Pytest Traceback --------
+2026-01-27 11:02:08,849 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\runner.py, 行号: 345, 函数: from_call
+2026-01-27 11:02:08,849 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\runner.py, 行号: 266, 函数: <lambda>
+2026-01-27 11:02:08,850 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_hooks.py, 行号: 500, 函数: __call__
+2026-01-27 11:02:08,850 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_manager.py, 行号: 118, 函数: _hookexec
+2026-01-27 11:02:08,850 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 180, 函数: _multicall
+2026-01-27 11:02:08,851 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_result.py, 行号: 98, 函数: get_result
+2026-01-27 11:02:08,851 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-27 11:02:08,851 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\threadexception.py, 行号: 86, 函数: pytest_runtest_call
+2026-01-27 11:02:08,851 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\threadexception.py, 行号: 62, 函数: thread_exception_runtest_hook
+2026-01-27 11:02:08,852 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-27 11:02:08,852 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\unraisableexception.py, 行号: 89, 函数: pytest_runtest_call
+2026-01-27 11:02:08,852 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\unraisableexception.py, 行号: 64, 函数: unraisable_exception_runtest_hook
+2026-01-27 11:02:08,853 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-27 11:02:08,853 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\logging.py, 行号: 838, 函数: pytest_runtest_call
+2026-01-27 11:02:08,853 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\logging.py, 行号: 821, 函数: _runtest_for
+2026-01-27 11:02:08,853 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-27 11:02:08,854 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\capture.py, 行号: 881, 函数: pytest_runtest_call
+2026-01-27 11:02:08,854 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-27 11:02:08,855 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\skipping.py, 行号: 255, 函数: pytest_runtest_call
+2026-01-27 11:02:08,855 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 101, 函数: _multicall
+2026-01-27 11:02:08,856 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\runner.py, 行号: 181, 函数: pytest_runtest_call
+2026-01-27 11:02:08,856 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\runner.py, 行号: 173, 函数: pytest_runtest_call
+2026-01-27 11:02:08,857 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\python.py, 行号: 1830, 函数: runtest
+2026-01-27 11:02:08,857 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_hooks.py, 行号: 500, 函数: __call__
+2026-01-27 11:02:08,857 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_manager.py, 行号: 118, 函数: _hookexec
+2026-01-27 11:02:08,857 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 137, 函数: _multicall
+2026-01-27 11:02:08,858 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 101, 函数: _multicall
+2026-01-27 11:02:08,858 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\python.py, 行号: 193, 函数: pytest_pyfunc_call
+2026-01-27 11:02:08,858 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: C:\Users\shi\Desktop\pom_web_ui\test_case\test_login.py, 行号: 19, 函数: test1
+2026-01-27 11:02:08,859 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py, 行号: 645, 函数: maximize_window
+2026-01-27 11:02:08,859 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py, 行号: 453, 函数: execute
+2026-01-27 11:02:08,859 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py, 行号: 231, 函数: check_response
+2026-01-27 11:02:08,860 - ERROR - [conftest.py:154 - log_exception_detail] - -------- 原生 Python Traceback --------
+2026-01-27 11:02:08,871 - ERROR - [conftest.py:155 - log_exception_detail] - Traceback (most recent call last):
+  File "E:\Python\python312\Lib\site-packages\_pytest\runner.py", line 346, in from_call
+    result: Optional[TResult] = func()
+                                ^^^^^^
+  File "E:\Python\python312\Lib\site-packages\_pytest\runner.py", line 267, in <lambda>
+    lambda: ihook(item=item, **kwds), when=when, reraise=reraise
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_hooks.py", line 501, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_manager.py", line 119, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 181, in _multicall
+    return outcome.get_result()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_result.py", line 99, in get_result
+    raise exc.with_traceback(exc.__traceback__)
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\threadexception.py", line 87, in pytest_runtest_call
+    yield from thread_exception_runtest_hook()
+  File "E:\Python\python312\Lib\site-packages\_pytest\threadexception.py", line 63, in thread_exception_runtest_hook
+    yield
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\unraisableexception.py", line 90, in pytest_runtest_call
+    yield from unraisable_exception_runtest_hook()
+  File "E:\Python\python312\Lib\site-packages\_pytest\unraisableexception.py", line 65, in unraisable_exception_runtest_hook
+    yield
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\logging.py", line 839, in pytest_runtest_call
+    yield from self._runtest_for(item, "call")
+  File "E:\Python\python312\Lib\site-packages\_pytest\logging.py", line 822, in _runtest_for
+    yield
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\capture.py", line 882, in pytest_runtest_call
+    return (yield)
+            ^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\skipping.py", line 256, in pytest_runtest_call
+    return (yield)
+            ^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 102, in _multicall
+    res = hook_impl.function(*args)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\_pytest\runner.py", line 182, in pytest_runtest_call
+    raise e
+  File "E:\Python\python312\Lib\site-packages\_pytest\runner.py", line 174, in pytest_runtest_call
+    item.runtest()
+  File "E:\Python\python312\Lib\site-packages\_pytest\python.py", line 1831, in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+  File "E:\Python\python312\Lib\site-packages\pluggy\_hooks.py", line 501, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_manager.py", line 119, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 138, in _multicall
+    raise exception.with_traceback(exception.__traceback__)
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 102, in _multicall
+    res = hook_impl.function(*args)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\_pytest\python.py", line 194, in pytest_pyfunc_call
+    result = testfunction(**testargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shi\Desktop\pom_web_ui\test_case\test_login.py", line 20, in test1
+    driver.maximize_window()
+  File "E:\Python\python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 646, in maximize_window
+    self.execute(command, None)
+  File "E:\Python\python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 454, in execute
+    self.error_handler.check_response(response)
+  File "E:\Python\python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: JavaScript code failed
+from unknown command: 'Runtime.evaluate' wasn't found
+  (Session info: chrome=144.0.7559.97)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7935388d5
+	0x7ff793538930
+	0x7ff79331165d
+	0x7ff7932fdc23
+	0x7ff7932fc3d4
+	0x7ff7932fcbcf
+	0x7ff793328937
+	0x7ff79331be25
+	0x7ff79331bcca
+	0x7ff7932ecb0d
+	0x7ff7932eadbb
+	0x7ff7933d31bf
+	0x7ff793391fda
+	0x7ff7933bac97
+	0x7ff79335ac29
+	0x7ff79335ba93
+	0x7ff793850620
+	0x7ff79384af60
+	0x7ff7938696c6
+	0x7ff793555dd4
+	0x7ff79355ed7c
+	0x7ff793541ff4
+	0x7ff7935421a5
+	0x7ff793527ed2
+	0x7fff280a7ac4
+	0x7fff2a88a8c1
+
+
+2026-01-27 11:02:08,872 - ERROR - [conftest.py:165 - log_exception_detail] - -------- Selenium stacktrace --------
+2026-01-27 11:02:08,872 - ERROR - [conftest.py:166 - log_exception_detail] - [
+    "Symbols not available. Dumping unresolved backtrace:",
+    "\t0x7ff7935388d5",
+    "\t0x7ff793538930",
+    "\t0x7ff79331165d",
+    "\t0x7ff7932fdc23",
+    "\t0x7ff7932fc3d4",
+    "\t0x7ff7932fcbcf",
+    "\t0x7ff793328937",
+    "\t0x7ff79331be25",
+    "\t0x7ff79331bcca",
+    "\t0x7ff7932ecb0d",
+    "\t0x7ff7932eadbb",
+    "\t0x7ff7933d31bf",
+    "\t0x7ff793391fda",
+    "\t0x7ff7933bac97",
+    "\t0x7ff79335ac29",
+    "\t0x7ff79335ba93",
+    "\t0x7ff793850620",
+    "\t0x7ff79384af60",
+    "\t0x7ff7938696c6",
+    "\t0x7ff793555dd4",
+    "\t0x7ff79355ed7c",
+    "\t0x7ff793541ff4",
+    "\t0x7ff7935421a5",
+    "\t0x7ff793527ed2",
+    "\t0x7fff280a7ac4",
+    "\t0x7fff2a88a8c1",
+    ""
+]
+2026-01-27 11:02:08,872 - ERROR - [conftest.py:168 - log_exception_detail] - ================================
+2026-01-27 11:02:08,980 - ERROR - [conftest.py:213 - pytest_runtest_makereport] - 已保存失败截图：C:\Users\shi\Desktop\pom_web_ui\screenshot\1_1769482928.jpg
+2026-01-27 11:02:33,990 - INFO - [login_page.py:29 - open_login_page] - 打开登录页面url :http://192.168.31.129
+2026-01-27 11:02:37,158 - ERROR - [input.py:42 - _wait_any_input_present] - timeout DOM不存在输入框：用户名 元素
+2026-01-27 11:02:37,312 - ERROR - [conftest.py:140 - log_exception_detail] - ======== 用例执行失败 ========
+2026-01-27 11:02:37,312 - ERROR - [conftest.py:141 - log_exception_detail] - 用例节点: test_login.py::TestLogin::test1
+2026-01-27 11:02:37,312 - ERROR - [conftest.py:142 - log_exception_detail] - 异常类型: TimeoutException
+2026-01-27 11:02:37,312 - ERROR - [conftest.py:143 - log_exception_detail] - 异常信息: Message: timeout DOM不存在输入框：用户名 元素
+
+2026-01-27 11:02:37,313 - ERROR - [conftest.py:146 - log_exception_detail] - -------- Pytest Traceback --------
+2026-01-27 11:02:37,313 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\runner.py, 行号: 345, 函数: from_call
+2026-01-27 11:02:37,313 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\runner.py, 行号: 266, 函数: <lambda>
+2026-01-27 11:02:37,313 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_hooks.py, 行号: 500, 函数: __call__
+2026-01-27 11:02:37,313 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_manager.py, 行号: 118, 函数: _hookexec
+2026-01-27 11:02:37,313 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 180, 函数: _multicall
+2026-01-27 11:02:37,313 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_result.py, 行号: 98, 函数: get_result
+2026-01-27 11:02:37,314 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-27 11:02:37,314 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\threadexception.py, 行号: 86, 函数: pytest_runtest_call
+2026-01-27 11:02:37,314 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\threadexception.py, 行号: 62, 函数: thread_exception_runtest_hook
+2026-01-27 11:02:37,314 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-27 11:02:37,314 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\unraisableexception.py, 行号: 89, 函数: pytest_runtest_call
+2026-01-27 11:02:37,314 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\unraisableexception.py, 行号: 64, 函数: unraisable_exception_runtest_hook
+2026-01-27 11:02:37,314 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-27 11:02:37,314 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\logging.py, 行号: 838, 函数: pytest_runtest_call
+2026-01-27 11:02:37,314 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\logging.py, 行号: 821, 函数: _runtest_for
+2026-01-27 11:02:37,315 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-27 11:02:37,315 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\capture.py, 行号: 881, 函数: pytest_runtest_call
+2026-01-27 11:02:37,315 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-27 11:02:37,315 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\skipping.py, 行号: 255, 函数: pytest_runtest_call
+2026-01-27 11:02:37,315 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 101, 函数: _multicall
+2026-01-27 11:02:37,315 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\runner.py, 行号: 181, 函数: pytest_runtest_call
+2026-01-27 11:02:37,315 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\runner.py, 行号: 173, 函数: pytest_runtest_call
+2026-01-27 11:02:37,315 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\python.py, 行号: 1830, 函数: runtest
+2026-01-27 11:02:37,315 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_hooks.py, 行号: 500, 函数: __call__
+2026-01-27 11:02:37,316 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_manager.py, 行号: 118, 函数: _hookexec
+2026-01-27 11:02:37,316 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 137, 函数: _multicall
+2026-01-27 11:02:37,316 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 101, 函数: _multicall
+2026-01-27 11:02:37,316 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\python.py, 行号: 193, 函数: pytest_pyfunc_call
+2026-01-27 11:02:37,316 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: C:\Users\shi\Desktop\pom_web_ui\test_case\test_login.py, 行号: 27, 函数: test1
+2026-01-27 11:02:37,316 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: C:\Users\shi\Desktop\pom_web_ui\pages\others\login_page.py, 行号: 35, 函数: login
+2026-01-27 11:02:37,316 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: C:\Users\shi\Desktop\pom_web_ui\common\widgets\input.py, 行号: 71, 函数: input_text
+2026-01-27 11:02:37,316 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: C:\Users\shi\Desktop\pom_web_ui\common\widgets\input.py, 行号: 42, 函数: _wait_any_input_present
+2026-01-27 11:02:37,316 - ERROR - [conftest.py:154 - log_exception_detail] - -------- 原生 Python Traceback --------
+2026-01-27 11:02:37,320 - ERROR - [conftest.py:155 - log_exception_detail] - Traceback (most recent call last):
+  File "C:\Users\shi\Desktop\pom_web_ui\common\widgets\input.py", line 39, in _wait_any_input_present
+    WebDriverWait(self.driver, timeout).until(_cond)
+  File "E:\Python\python312\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Python\python312\Lib\site-packages\_pytest\runner.py", line 346, in from_call
+    result: Optional[TResult] = func()
+                                ^^^^^^
+  File "E:\Python\python312\Lib\site-packages\_pytest\runner.py", line 267, in <lambda>
+    lambda: ihook(item=item, **kwds), when=when, reraise=reraise
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_hooks.py", line 501, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_manager.py", line 119, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 181, in _multicall
+    return outcome.get_result()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_result.py", line 99, in get_result
+    raise exc.with_traceback(exc.__traceback__)
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\threadexception.py", line 87, in pytest_runtest_call
+    yield from thread_exception_runtest_hook()
+  File "E:\Python\python312\Lib\site-packages\_pytest\threadexception.py", line 63, in thread_exception_runtest_hook
+    yield
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\unraisableexception.py", line 90, in pytest_runtest_call
+    yield from unraisable_exception_runtest_hook()
+  File "E:\Python\python312\Lib\site-packages\_pytest\unraisableexception.py", line 65, in unraisable_exception_runtest_hook
+    yield
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\logging.py", line 839, in pytest_runtest_call
+    yield from self._runtest_for(item, "call")
+  File "E:\Python\python312\Lib\site-packages\_pytest\logging.py", line 822, in _runtest_for
+    yield
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\capture.py", line 882, in pytest_runtest_call
+    return (yield)
+            ^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\skipping.py", line 256, in pytest_runtest_call
+    return (yield)
+            ^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 102, in _multicall
+    res = hook_impl.function(*args)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\_pytest\runner.py", line 182, in pytest_runtest_call
+    raise e
+  File "E:\Python\python312\Lib\site-packages\_pytest\runner.py", line 174, in pytest_runtest_call
+    item.runtest()
+  File "E:\Python\python312\Lib\site-packages\_pytest\python.py", line 1831, in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+  File "E:\Python\python312\Lib\site-packages\pluggy\_hooks.py", line 501, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_manager.py", line 119, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 138, in _multicall
+    raise exception.with_traceback(exception.__traceback__)
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 102, in _multicall
+    res = hook_impl.function(*args)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\_pytest\python.py", line 194, in pytest_pyfunc_call
+    result = testfunction(**testargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shi\Desktop\pom_web_ui\test_case\test_login.py", line 28, in test1
+    registry.LoginPage.login()
+  File "C:\Users\shi\Desktop\pom_web_ui\pages\others\login_page.py", line 36, in login
+    ip.input_text('用户名', user)
+  File "C:\Users\shi\Desktop\pom_web_ui\common\widgets\input.py", line 72, in input_text
+    self._wait_any_input_present(label)
+  File "C:\Users\shi\Desktop\pom_web_ui\common\widgets\input.py", line 43, in _wait_any_input_present
+    raise TimeoutException(f"timeout DOM不存在输入框：{label} 元素")
+selenium.common.exceptions.TimeoutException: Message: timeout DOM不存在输入框：用户名 元素
+
+
+2026-01-27 11:02:37,320 - ERROR - [conftest.py:168 - log_exception_detail] - ================================
+2026-01-27 11:02:37,391 - ERROR - [conftest.py:213 - pytest_runtest_makereport] - 已保存失败截图：C:\Users\shi\Desktop\pom_web_ui\screenshot\1_1769482957.jpg
+2026-01-27 14:40:35,780 - INFO - [login_page.py:29 - open_login_page] - 打开登录页面url :http://192.168.31.129
+2026-01-27 14:40:39,149 - ERROR - [input.py:42 - _wait_any_input_present] - timeout DOM不存在输入框：用户名 元素
+2026-01-27 14:40:39,369 - ERROR - [conftest.py:140 - log_exception_detail] - ======== 用例执行失败 ========
+2026-01-27 14:40:39,369 - ERROR - [conftest.py:141 - log_exception_detail] - 用例节点: test_login.py::TestLogin::test1
+2026-01-27 14:40:39,369 - ERROR - [conftest.py:142 - log_exception_detail] - 异常类型: TimeoutException
+2026-01-27 14:40:39,369 - ERROR - [conftest.py:143 - log_exception_detail] - 异常信息: Message: timeout DOM不存在输入框：用户名 元素
+
+2026-01-27 14:40:39,369 - ERROR - [conftest.py:146 - log_exception_detail] - -------- Pytest Traceback --------
+2026-01-27 14:40:39,369 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\runner.py, 行号: 345, 函数: from_call
+2026-01-27 14:40:39,370 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\runner.py, 行号: 266, 函数: <lambda>
+2026-01-27 14:40:39,370 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_hooks.py, 行号: 500, 函数: __call__
+2026-01-27 14:40:39,370 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_manager.py, 行号: 118, 函数: _hookexec
+2026-01-27 14:40:39,370 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 180, 函数: _multicall
+2026-01-27 14:40:39,370 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_result.py, 行号: 98, 函数: get_result
+2026-01-27 14:40:39,370 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-27 14:40:39,371 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\threadexception.py, 行号: 86, 函数: pytest_runtest_call
+2026-01-27 14:40:39,371 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\threadexception.py, 行号: 62, 函数: thread_exception_runtest_hook
+2026-01-27 14:40:39,371 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-27 14:40:39,371 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\unraisableexception.py, 行号: 89, 函数: pytest_runtest_call
+2026-01-27 14:40:39,371 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\unraisableexception.py, 行号: 64, 函数: unraisable_exception_runtest_hook
+2026-01-27 14:40:39,371 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-27 14:40:39,371 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\logging.py, 行号: 838, 函数: pytest_runtest_call
+2026-01-27 14:40:39,371 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\logging.py, 行号: 821, 函数: _runtest_for
+2026-01-27 14:40:39,372 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-27 14:40:39,372 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\capture.py, 行号: 881, 函数: pytest_runtest_call
+2026-01-27 14:40:39,372 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-27 14:40:39,372 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\skipping.py, 行号: 255, 函数: pytest_runtest_call
+2026-01-27 14:40:39,372 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 101, 函数: _multicall
+2026-01-27 14:40:39,372 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\runner.py, 行号: 181, 函数: pytest_runtest_call
+2026-01-27 14:40:39,372 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\runner.py, 行号: 173, 函数: pytest_runtest_call
+2026-01-27 14:40:39,372 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\python.py, 行号: 1830, 函数: runtest
+2026-01-27 14:40:39,372 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_hooks.py, 行号: 500, 函数: __call__
+2026-01-27 14:40:39,373 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_manager.py, 行号: 118, 函数: _hookexec
+2026-01-27 14:40:39,373 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 137, 函数: _multicall
+2026-01-27 14:40:39,373 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 101, 函数: _multicall
+2026-01-27 14:40:39,373 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\python.py, 行号: 193, 函数: pytest_pyfunc_call
+2026-01-27 14:40:39,373 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: C:\Users\shi\Desktop\pom_web_ui\test_case\test_login.py, 行号: 27, 函数: test1
+2026-01-27 14:40:39,373 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: C:\Users\shi\Desktop\pom_web_ui\pages\others\login_page.py, 行号: 35, 函数: login
+2026-01-27 14:40:39,373 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: C:\Users\shi\Desktop\pom_web_ui\common\widgets\input.py, 行号: 71, 函数: input_text
+2026-01-27 14:40:39,373 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: C:\Users\shi\Desktop\pom_web_ui\common\widgets\input.py, 行号: 42, 函数: _wait_any_input_present
+2026-01-27 14:40:39,373 - ERROR - [conftest.py:154 - log_exception_detail] - -------- 原生 Python Traceback --------
+2026-01-27 14:40:39,377 - ERROR - [conftest.py:155 - log_exception_detail] - Traceback (most recent call last):
+  File "C:\Users\shi\Desktop\pom_web_ui\common\widgets\input.py", line 39, in _wait_any_input_present
+    WebDriverWait(self.driver, timeout).until(_cond)
+  File "E:\Python\python312\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Python\python312\Lib\site-packages\_pytest\runner.py", line 346, in from_call
+    result: Optional[TResult] = func()
+                                ^^^^^^
+  File "E:\Python\python312\Lib\site-packages\_pytest\runner.py", line 267, in <lambda>
+    lambda: ihook(item=item, **kwds), when=when, reraise=reraise
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_hooks.py", line 501, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_manager.py", line 119, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 181, in _multicall
+    return outcome.get_result()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_result.py", line 99, in get_result
+    raise exc.with_traceback(exc.__traceback__)
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\threadexception.py", line 87, in pytest_runtest_call
+    yield from thread_exception_runtest_hook()
+  File "E:\Python\python312\Lib\site-packages\_pytest\threadexception.py", line 63, in thread_exception_runtest_hook
+    yield
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\unraisableexception.py", line 90, in pytest_runtest_call
+    yield from unraisable_exception_runtest_hook()
+  File "E:\Python\python312\Lib\site-packages\_pytest\unraisableexception.py", line 65, in unraisable_exception_runtest_hook
+    yield
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\logging.py", line 839, in pytest_runtest_call
+    yield from self._runtest_for(item, "call")
+  File "E:\Python\python312\Lib\site-packages\_pytest\logging.py", line 822, in _runtest_for
+    yield
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\capture.py", line 882, in pytest_runtest_call
+    return (yield)
+            ^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\skipping.py", line 256, in pytest_runtest_call
+    return (yield)
+            ^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 102, in _multicall
+    res = hook_impl.function(*args)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\_pytest\runner.py", line 182, in pytest_runtest_call
+    raise e
+  File "E:\Python\python312\Lib\site-packages\_pytest\runner.py", line 174, in pytest_runtest_call
+    item.runtest()
+  File "E:\Python\python312\Lib\site-packages\_pytest\python.py", line 1831, in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+  File "E:\Python\python312\Lib\site-packages\pluggy\_hooks.py", line 501, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_manager.py", line 119, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 138, in _multicall
+    raise exception.with_traceback(exception.__traceback__)
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 102, in _multicall
+    res = hook_impl.function(*args)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\_pytest\python.py", line 194, in pytest_pyfunc_call
+    result = testfunction(**testargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shi\Desktop\pom_web_ui\test_case\test_login.py", line 28, in test1
+    registry.LoginPage.login()
+  File "C:\Users\shi\Desktop\pom_web_ui\pages\others\login_page.py", line 36, in login
+    ip.input_text('用户名', user)
+  File "C:\Users\shi\Desktop\pom_web_ui\common\widgets\input.py", line 72, in input_text
+    self._wait_any_input_present(label)
+  File "C:\Users\shi\Desktop\pom_web_ui\common\widgets\input.py", line 43, in _wait_any_input_present
+    raise TimeoutException(f"timeout DOM不存在输入框：{label} 元素")
+selenium.common.exceptions.TimeoutException: Message: timeout DOM不存在输入框：用户名 元素
+
+
+2026-01-27 14:40:39,377 - ERROR - [conftest.py:168 - log_exception_detail] - ================================
+2026-01-27 14:40:39,452 - ERROR - [conftest.py:213 - pytest_runtest_makereport] - 已保存失败截图：C:\Users\shi\Desktop\pom_web_ui\screenshot\1_1769496039.jpg
+2026-01-27 14:41:22,471 - INFO - [login_page.py:29 - open_login_page] - 打开登录页面url :http://192.168.31.129
+2026-01-27 14:41:25,725 - ERROR - [input.py:42 - _wait_any_input_present] - timeout DOM不存在输入框：用户名 元素
+2026-01-27 14:41:25,881 - ERROR - [conftest.py:140 - log_exception_detail] - ======== 用例执行失败 ========
+2026-01-27 14:41:25,882 - ERROR - [conftest.py:141 - log_exception_detail] - 用例节点: test_login.py::TestLogin::test1
+2026-01-27 14:41:25,882 - ERROR - [conftest.py:142 - log_exception_detail] - 异常类型: TimeoutException
+2026-01-27 14:41:25,882 - ERROR - [conftest.py:143 - log_exception_detail] - 异常信息: Message: timeout DOM不存在输入框：用户名 元素
+
+2026-01-27 14:41:25,882 - ERROR - [conftest.py:146 - log_exception_detail] - -------- Pytest Traceback --------
+2026-01-27 14:41:25,882 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\runner.py, 行号: 345, 函数: from_call
+2026-01-27 14:41:25,884 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\runner.py, 行号: 266, 函数: <lambda>
+2026-01-27 14:41:25,884 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_hooks.py, 行号: 500, 函数: __call__
+2026-01-27 14:41:25,884 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_manager.py, 行号: 118, 函数: _hookexec
+2026-01-27 14:41:25,884 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 180, 函数: _multicall
+2026-01-27 14:41:25,884 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_result.py, 行号: 98, 函数: get_result
+2026-01-27 14:41:25,884 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-27 14:41:25,885 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\threadexception.py, 行号: 86, 函数: pytest_runtest_call
+2026-01-27 14:41:25,885 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\threadexception.py, 行号: 62, 函数: thread_exception_runtest_hook
+2026-01-27 14:41:25,885 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-27 14:41:25,885 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\unraisableexception.py, 行号: 89, 函数: pytest_runtest_call
+2026-01-27 14:41:25,885 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\unraisableexception.py, 行号: 64, 函数: unraisable_exception_runtest_hook
+2026-01-27 14:41:25,885 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-27 14:41:25,885 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\logging.py, 行号: 838, 函数: pytest_runtest_call
+2026-01-27 14:41:25,885 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\logging.py, 行号: 821, 函数: _runtest_for
+2026-01-27 14:41:25,885 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-27 14:41:25,885 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\capture.py, 行号: 881, 函数: pytest_runtest_call
+2026-01-27 14:41:25,886 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-27 14:41:25,886 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\skipping.py, 行号: 255, 函数: pytest_runtest_call
+2026-01-27 14:41:25,886 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 101, 函数: _multicall
+2026-01-27 14:41:25,886 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\runner.py, 行号: 181, 函数: pytest_runtest_call
+2026-01-27 14:41:25,886 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\runner.py, 行号: 173, 函数: pytest_runtest_call
+2026-01-27 14:41:25,886 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\python.py, 行号: 1830, 函数: runtest
+2026-01-27 14:41:25,886 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_hooks.py, 行号: 500, 函数: __call__
+2026-01-27 14:41:25,886 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_manager.py, 行号: 118, 函数: _hookexec
+2026-01-27 14:41:25,886 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 137, 函数: _multicall
+2026-01-27 14:41:25,887 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 101, 函数: _multicall
+2026-01-27 14:41:25,887 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\python.py, 行号: 193, 函数: pytest_pyfunc_call
+2026-01-27 14:41:25,887 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: C:\Users\shi\Desktop\pom_web_ui\test_case\test_login.py, 行号: 27, 函数: test1
+2026-01-27 14:41:25,887 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: C:\Users\shi\Desktop\pom_web_ui\pages\others\login_page.py, 行号: 35, 函数: login
+2026-01-27 14:41:25,887 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: C:\Users\shi\Desktop\pom_web_ui\common\widgets\input.py, 行号: 71, 函数: input_text
+2026-01-27 14:41:25,887 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: C:\Users\shi\Desktop\pom_web_ui\common\widgets\input.py, 行号: 42, 函数: _wait_any_input_present
+2026-01-27 14:41:25,887 - ERROR - [conftest.py:154 - log_exception_detail] - -------- 原生 Python Traceback --------
+2026-01-27 14:41:25,890 - ERROR - [conftest.py:155 - log_exception_detail] - Traceback (most recent call last):
+  File "C:\Users\shi\Desktop\pom_web_ui\common\widgets\input.py", line 39, in _wait_any_input_present
+    WebDriverWait(self.driver, timeout).until(_cond)
+  File "E:\Python\python312\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Python\python312\Lib\site-packages\_pytest\runner.py", line 346, in from_call
+    result: Optional[TResult] = func()
+                                ^^^^^^
+  File "E:\Python\python312\Lib\site-packages\_pytest\runner.py", line 267, in <lambda>
+    lambda: ihook(item=item, **kwds), when=when, reraise=reraise
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_hooks.py", line 501, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_manager.py", line 119, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 181, in _multicall
+    return outcome.get_result()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_result.py", line 99, in get_result
+    raise exc.with_traceback(exc.__traceback__)
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\threadexception.py", line 87, in pytest_runtest_call
+    yield from thread_exception_runtest_hook()
+  File "E:\Python\python312\Lib\site-packages\_pytest\threadexception.py", line 63, in thread_exception_runtest_hook
+    yield
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\unraisableexception.py", line 90, in pytest_runtest_call
+    yield from unraisable_exception_runtest_hook()
+  File "E:\Python\python312\Lib\site-packages\_pytest\unraisableexception.py", line 65, in unraisable_exception_runtest_hook
+    yield
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\logging.py", line 839, in pytest_runtest_call
+    yield from self._runtest_for(item, "call")
+  File "E:\Python\python312\Lib\site-packages\_pytest\logging.py", line 822, in _runtest_for
+    yield
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\capture.py", line 882, in pytest_runtest_call
+    return (yield)
+            ^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\skipping.py", line 256, in pytest_runtest_call
+    return (yield)
+            ^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 102, in _multicall
+    res = hook_impl.function(*args)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\_pytest\runner.py", line 182, in pytest_runtest_call
+    raise e
+  File "E:\Python\python312\Lib\site-packages\_pytest\runner.py", line 174, in pytest_runtest_call
+    item.runtest()
+  File "E:\Python\python312\Lib\site-packages\_pytest\python.py", line 1831, in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+  File "E:\Python\python312\Lib\site-packages\pluggy\_hooks.py", line 501, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_manager.py", line 119, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 138, in _multicall
+    raise exception.with_traceback(exception.__traceback__)
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 102, in _multicall
+    res = hook_impl.function(*args)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\_pytest\python.py", line 194, in pytest_pyfunc_call
+    result = testfunction(**testargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shi\Desktop\pom_web_ui\test_case\test_login.py", line 28, in test1
+    registry.LoginPage.login()
+  File "C:\Users\shi\Desktop\pom_web_ui\pages\others\login_page.py", line 36, in login
+    ip.input_text('用户名', user)
+  File "C:\Users\shi\Desktop\pom_web_ui\common\widgets\input.py", line 72, in input_text
+    self._wait_any_input_present(label)
+  File "C:\Users\shi\Desktop\pom_web_ui\common\widgets\input.py", line 43, in _wait_any_input_present
+    raise TimeoutException(f"timeout DOM不存在输入框：{label} 元素")
+selenium.common.exceptions.TimeoutException: Message: timeout DOM不存在输入框：用户名 元素
+
+
+2026-01-27 14:41:25,890 - ERROR - [conftest.py:168 - log_exception_detail] - ================================
+2026-01-27 14:41:25,950 - ERROR - [conftest.py:213 - pytest_runtest_makereport] - 已保存失败截图：C:\Users\shi\Desktop\pom_web_ui\screenshot\1_1769496085.jpg
+2026-01-27 14:42:15,836 - INFO - [login_page.py:29 - open_login_page] - 打开登录页面url :http://192.168.31.129
+2026-01-27 14:42:19,054 - ERROR - [input.py:42 - _wait_any_input_present] - timeout DOM不存在输入框：用户名 元素
+2026-01-27 14:42:19,207 - ERROR - [conftest.py:140 - log_exception_detail] - ======== 用例执行失败 ========
+2026-01-27 14:42:19,207 - ERROR - [conftest.py:141 - log_exception_detail] - 用例节点: test_login.py::TestLogin::test1
+2026-01-27 14:42:19,207 - ERROR - [conftest.py:142 - log_exception_detail] - 异常类型: TimeoutException
+2026-01-27 14:42:19,207 - ERROR - [conftest.py:143 - log_exception_detail] - 异常信息: Message: timeout DOM不存在输入框：用户名 元素
+
+2026-01-27 14:42:19,207 - ERROR - [conftest.py:146 - log_exception_detail] - -------- Pytest Traceback --------
+2026-01-27 14:42:19,207 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\runner.py, 行号: 345, 函数: from_call
+2026-01-27 14:42:19,209 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\runner.py, 行号: 266, 函数: <lambda>
+2026-01-27 14:42:19,209 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_hooks.py, 行号: 500, 函数: __call__
+2026-01-27 14:42:19,209 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_manager.py, 行号: 118, 函数: _hookexec
+2026-01-27 14:42:19,209 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 180, 函数: _multicall
+2026-01-27 14:42:19,209 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_result.py, 行号: 98, 函数: get_result
+2026-01-27 14:42:19,209 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-27 14:42:19,209 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\threadexception.py, 行号: 86, 函数: pytest_runtest_call
+2026-01-27 14:42:19,210 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\threadexception.py, 行号: 62, 函数: thread_exception_runtest_hook
+2026-01-27 14:42:19,210 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-27 14:42:19,210 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\unraisableexception.py, 行号: 89, 函数: pytest_runtest_call
+2026-01-27 14:42:19,210 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\unraisableexception.py, 行号: 64, 函数: unraisable_exception_runtest_hook
+2026-01-27 14:42:19,210 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-27 14:42:19,210 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\logging.py, 行号: 838, 函数: pytest_runtest_call
+2026-01-27 14:42:19,210 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\logging.py, 行号: 821, 函数: _runtest_for
+2026-01-27 14:42:19,210 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-27 14:42:19,210 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\capture.py, 行号: 881, 函数: pytest_runtest_call
+2026-01-27 14:42:19,211 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-27 14:42:19,211 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\skipping.py, 行号: 255, 函数: pytest_runtest_call
+2026-01-27 14:42:19,211 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 101, 函数: _multicall
+2026-01-27 14:42:19,211 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\runner.py, 行号: 181, 函数: pytest_runtest_call
+2026-01-27 14:42:19,211 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\runner.py, 行号: 173, 函数: pytest_runtest_call
+2026-01-27 14:42:19,211 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\python.py, 行号: 1830, 函数: runtest
+2026-01-27 14:42:19,211 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_hooks.py, 行号: 500, 函数: __call__
+2026-01-27 14:42:19,211 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_manager.py, 行号: 118, 函数: _hookexec
+2026-01-27 14:42:19,211 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 137, 函数: _multicall
+2026-01-27 14:42:19,212 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 101, 函数: _multicall
+2026-01-27 14:42:19,212 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\python.py, 行号: 193, 函数: pytest_pyfunc_call
+2026-01-27 14:42:19,212 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: C:\Users\shi\Desktop\pom_web_ui\test_case\test_login.py, 行号: 27, 函数: test1
+2026-01-27 14:42:19,212 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: C:\Users\shi\Desktop\pom_web_ui\pages\others\login_page.py, 行号: 35, 函数: login
+2026-01-27 14:42:19,212 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: C:\Users\shi\Desktop\pom_web_ui\common\widgets\input.py, 行号: 71, 函数: input_text
+2026-01-27 14:42:19,212 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: C:\Users\shi\Desktop\pom_web_ui\common\widgets\input.py, 行号: 42, 函数: _wait_any_input_present
+2026-01-27 14:42:19,212 - ERROR - [conftest.py:154 - log_exception_detail] - -------- 原生 Python Traceback --------
+2026-01-27 14:42:19,215 - ERROR - [conftest.py:155 - log_exception_detail] - Traceback (most recent call last):
+  File "C:\Users\shi\Desktop\pom_web_ui\common\widgets\input.py", line 39, in _wait_any_input_present
+    WebDriverWait(self.driver, timeout).until(_cond)
+  File "E:\Python\python312\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Python\python312\Lib\site-packages\_pytest\runner.py", line 346, in from_call
+    result: Optional[TResult] = func()
+                                ^^^^^^
+  File "E:\Python\python312\Lib\site-packages\_pytest\runner.py", line 267, in <lambda>
+    lambda: ihook(item=item, **kwds), when=when, reraise=reraise
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_hooks.py", line 501, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_manager.py", line 119, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 181, in _multicall
+    return outcome.get_result()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_result.py", line 99, in get_result
+    raise exc.with_traceback(exc.__traceback__)
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\threadexception.py", line 87, in pytest_runtest_call
+    yield from thread_exception_runtest_hook()
+  File "E:\Python\python312\Lib\site-packages\_pytest\threadexception.py", line 63, in thread_exception_runtest_hook
+    yield
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\unraisableexception.py", line 90, in pytest_runtest_call
+    yield from unraisable_exception_runtest_hook()
+  File "E:\Python\python312\Lib\site-packages\_pytest\unraisableexception.py", line 65, in unraisable_exception_runtest_hook
+    yield
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\logging.py", line 839, in pytest_runtest_call
+    yield from self._runtest_for(item, "call")
+  File "E:\Python\python312\Lib\site-packages\_pytest\logging.py", line 822, in _runtest_for
+    yield
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\capture.py", line 882, in pytest_runtest_call
+    return (yield)
+            ^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\skipping.py", line 256, in pytest_runtest_call
+    return (yield)
+            ^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 102, in _multicall
+    res = hook_impl.function(*args)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\_pytest\runner.py", line 182, in pytest_runtest_call
+    raise e
+  File "E:\Python\python312\Lib\site-packages\_pytest\runner.py", line 174, in pytest_runtest_call
+    item.runtest()
+  File "E:\Python\python312\Lib\site-packages\_pytest\python.py", line 1831, in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+  File "E:\Python\python312\Lib\site-packages\pluggy\_hooks.py", line 501, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_manager.py", line 119, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 138, in _multicall
+    raise exception.with_traceback(exception.__traceback__)
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 102, in _multicall
+    res = hook_impl.function(*args)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\_pytest\python.py", line 194, in pytest_pyfunc_call
+    result = testfunction(**testargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shi\Desktop\pom_web_ui\test_case\test_login.py", line 28, in test1
+    registry.LoginPage.login()
+  File "C:\Users\shi\Desktop\pom_web_ui\pages\others\login_page.py", line 36, in login
+    ip.input_text('用户名', user)
+  File "C:\Users\shi\Desktop\pom_web_ui\common\widgets\input.py", line 72, in input_text
+    self._wait_any_input_present(label)
+  File "C:\Users\shi\Desktop\pom_web_ui\common\widgets\input.py", line 43, in _wait_any_input_present
+    raise TimeoutException(f"timeout DOM不存在输入框：{label} 元素")
+selenium.common.exceptions.TimeoutException: Message: timeout DOM不存在输入框：用户名 元素
+
+
+2026-01-27 14:42:19,215 - ERROR - [conftest.py:168 - log_exception_detail] - ================================
+2026-01-27 14:42:19,274 - ERROR - [conftest.py:213 - pytest_runtest_makereport] - 已保存失败截图：C:\Users\shi\Desktop\pom_web_ui\screenshot\1_1769496139.jpg
+2026-01-27 14:46:45,596 - INFO - [login_page.py:29 - open_login_page] - 打开登录页面url :http://192.168.31.129
+2026-01-27 14:46:48,838 - ERROR - [input.py:42 - _wait_any_input_present] - timeout DOM不存在输入框：用户名 元素
+2026-01-27 14:46:49,039 - ERROR - [conftest.py:140 - log_exception_detail] - ======== 用例执行失败 ========
+2026-01-27 14:46:49,039 - ERROR - [conftest.py:141 - log_exception_detail] - 用例节点: test_login.py::TestLogin::test1
+2026-01-27 14:46:49,040 - ERROR - [conftest.py:142 - log_exception_detail] - 异常类型: TimeoutException
+2026-01-27 14:46:49,040 - ERROR - [conftest.py:143 - log_exception_detail] - 异常信息: Message: timeout DOM不存在输入框：用户名 元素
+
+2026-01-27 14:46:49,040 - ERROR - [conftest.py:146 - log_exception_detail] - -------- Pytest Traceback --------
+2026-01-27 14:46:49,040 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\runner.py, 行号: 345, 函数: from_call
+2026-01-27 14:46:49,043 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\runner.py, 行号: 266, 函数: <lambda>
+2026-01-27 14:46:49,043 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_hooks.py, 行号: 500, 函数: __call__
+2026-01-27 14:46:49,043 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_manager.py, 行号: 118, 函数: _hookexec
+2026-01-27 14:46:49,043 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 180, 函数: _multicall
+2026-01-27 14:46:49,044 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_result.py, 行号: 98, 函数: get_result
+2026-01-27 14:46:49,044 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-27 14:46:49,044 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\threadexception.py, 行号: 86, 函数: pytest_runtest_call
+2026-01-27 14:46:49,044 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\threadexception.py, 行号: 62, 函数: thread_exception_runtest_hook
+2026-01-27 14:46:49,045 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-27 14:46:49,045 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\unraisableexception.py, 行号: 89, 函数: pytest_runtest_call
+2026-01-27 14:46:49,045 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\unraisableexception.py, 行号: 64, 函数: unraisable_exception_runtest_hook
+2026-01-27 14:46:49,045 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-27 14:46:49,046 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\logging.py, 行号: 838, 函数: pytest_runtest_call
+2026-01-27 14:46:49,046 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\logging.py, 行号: 821, 函数: _runtest_for
+2026-01-27 14:46:49,046 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-27 14:46:49,046 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\capture.py, 行号: 881, 函数: pytest_runtest_call
+2026-01-27 14:46:49,047 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-27 14:46:49,047 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\skipping.py, 行号: 255, 函数: pytest_runtest_call
+2026-01-27 14:46:49,047 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 101, 函数: _multicall
+2026-01-27 14:46:49,047 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\runner.py, 行号: 181, 函数: pytest_runtest_call
+2026-01-27 14:46:49,048 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\runner.py, 行号: 173, 函数: pytest_runtest_call
+2026-01-27 14:46:49,048 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\python.py, 行号: 1830, 函数: runtest
+2026-01-27 14:46:49,048 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_hooks.py, 行号: 500, 函数: __call__
+2026-01-27 14:46:49,048 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_manager.py, 行号: 118, 函数: _hookexec
+2026-01-27 14:46:49,049 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 137, 函数: _multicall
+2026-01-27 14:46:49,049 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 101, 函数: _multicall
+2026-01-27 14:46:49,049 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\python.py, 行号: 193, 函数: pytest_pyfunc_call
+2026-01-27 14:46:49,049 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: C:\Users\shi\Desktop\pom_web_ui\test_case\test_login.py, 行号: 27, 函数: test1
+2026-01-27 14:46:49,050 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: C:\Users\shi\Desktop\pom_web_ui\pages\others\login_page.py, 行号: 35, 函数: login
+2026-01-27 14:46:49,050 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: C:\Users\shi\Desktop\pom_web_ui\common\widgets\input.py, 行号: 71, 函数: input_text
+2026-01-27 14:46:49,050 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: C:\Users\shi\Desktop\pom_web_ui\common\widgets\input.py, 行号: 42, 函数: _wait_any_input_present
+2026-01-27 14:46:49,050 - ERROR - [conftest.py:154 - log_exception_detail] - -------- 原生 Python Traceback --------
+2026-01-27 14:46:49,055 - ERROR - [conftest.py:155 - log_exception_detail] - Traceback (most recent call last):
+  File "C:\Users\shi\Desktop\pom_web_ui\common\widgets\input.py", line 39, in _wait_any_input_present
+    WebDriverWait(self.driver, timeout).until(_cond)
+  File "E:\Python\python312\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Python\python312\Lib\site-packages\_pytest\runner.py", line 346, in from_call
+    result: Optional[TResult] = func()
+                                ^^^^^^
+  File "E:\Python\python312\Lib\site-packages\_pytest\runner.py", line 267, in <lambda>
+    lambda: ihook(item=item, **kwds), when=when, reraise=reraise
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_hooks.py", line 501, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_manager.py", line 119, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 181, in _multicall
+    return outcome.get_result()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_result.py", line 99, in get_result
+    raise exc.with_traceback(exc.__traceback__)
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\threadexception.py", line 87, in pytest_runtest_call
+    yield from thread_exception_runtest_hook()
+  File "E:\Python\python312\Lib\site-packages\_pytest\threadexception.py", line 63, in thread_exception_runtest_hook
+    yield
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\unraisableexception.py", line 90, in pytest_runtest_call
+    yield from unraisable_exception_runtest_hook()
+  File "E:\Python\python312\Lib\site-packages\_pytest\unraisableexception.py", line 65, in unraisable_exception_runtest_hook
+    yield
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\logging.py", line 839, in pytest_runtest_call
+    yield from self._runtest_for(item, "call")
+  File "E:\Python\python312\Lib\site-packages\_pytest\logging.py", line 822, in _runtest_for
+    yield
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\capture.py", line 882, in pytest_runtest_call
+    return (yield)
+            ^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\skipping.py", line 256, in pytest_runtest_call
+    return (yield)
+            ^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 102, in _multicall
+    res = hook_impl.function(*args)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\_pytest\runner.py", line 182, in pytest_runtest_call
+    raise e
+  File "E:\Python\python312\Lib\site-packages\_pytest\runner.py", line 174, in pytest_runtest_call
+    item.runtest()
+  File "E:\Python\python312\Lib\site-packages\_pytest\python.py", line 1831, in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+  File "E:\Python\python312\Lib\site-packages\pluggy\_hooks.py", line 501, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_manager.py", line 119, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 138, in _multicall
+    raise exception.with_traceback(exception.__traceback__)
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 102, in _multicall
+    res = hook_impl.function(*args)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\_pytest\python.py", line 194, in pytest_pyfunc_call
+    result = testfunction(**testargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shi\Desktop\pom_web_ui\test_case\test_login.py", line 28, in test1
+    registry.LoginPage.login()
+  File "C:\Users\shi\Desktop\pom_web_ui\pages\others\login_page.py", line 36, in login
+    ip.input_text('用户名', user)
+  File "C:\Users\shi\Desktop\pom_web_ui\common\widgets\input.py", line 72, in input_text
+    self._wait_any_input_present(label)
+  File "C:\Users\shi\Desktop\pom_web_ui\common\widgets\input.py", line 43, in _wait_any_input_present
+    raise TimeoutException(f"timeout DOM不存在输入框：{label} 元素")
+selenium.common.exceptions.TimeoutException: Message: timeout DOM不存在输入框：用户名 元素
+
+
+2026-01-27 14:46:49,055 - ERROR - [conftest.py:168 - log_exception_detail] - ================================
+2026-01-27 14:46:49,127 - ERROR - [conftest.py:213 - pytest_runtest_makereport] - 已保存失败截图：C:\Users\shi\Desktop\pom_web_ui\screenshot\1_1769496409.jpg
+2026-01-27 14:48:04,394 - INFO - [login_page.py:29 - open_login_page] - 打开登录页面url :http://192.168.31.129
+2026-01-27 14:48:42,557 - INFO - [login_page.py:29 - open_login_page] - 打开登录页面url :http://192.168.31.129
+2026-01-27 14:48:45,796 - ERROR - [input.py:42 - _wait_any_input_present] - timeout DOM不存在输入框：用户名 元素
+2026-01-27 14:48:45,999 - ERROR - [conftest.py:140 - log_exception_detail] - ======== 用例执行失败 ========
+2026-01-27 14:48:45,999 - ERROR - [conftest.py:141 - log_exception_detail] - 用例节点: test_login.py::TestLogin::test1
+2026-01-27 14:48:46,000 - ERROR - [conftest.py:142 - log_exception_detail] - 异常类型: TimeoutException
+2026-01-27 14:48:46,000 - ERROR - [conftest.py:143 - log_exception_detail] - 异常信息: Message: timeout DOM不存在输入框：用户名 元素
+
+2026-01-27 14:48:46,000 - ERROR - [conftest.py:146 - log_exception_detail] - -------- Pytest Traceback --------
+2026-01-27 14:48:46,000 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\runner.py, 行号: 345, 函数: from_call
+2026-01-27 14:48:46,001 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\runner.py, 行号: 266, 函数: <lambda>
+2026-01-27 14:48:46,001 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_hooks.py, 行号: 500, 函数: __call__
+2026-01-27 14:48:46,002 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_manager.py, 行号: 118, 函数: _hookexec
+2026-01-27 14:48:46,002 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 180, 函数: _multicall
+2026-01-27 14:48:46,002 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_result.py, 行号: 98, 函数: get_result
+2026-01-27 14:48:46,002 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-27 14:48:46,003 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\threadexception.py, 行号: 86, 函数: pytest_runtest_call
+2026-01-27 14:48:46,003 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\threadexception.py, 行号: 62, 函数: thread_exception_runtest_hook
+2026-01-27 14:48:46,003 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-27 14:48:46,003 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\unraisableexception.py, 行号: 89, 函数: pytest_runtest_call
+2026-01-27 14:48:46,004 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\unraisableexception.py, 行号: 64, 函数: unraisable_exception_runtest_hook
+2026-01-27 14:48:46,004 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-27 14:48:46,004 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\logging.py, 行号: 838, 函数: pytest_runtest_call
+2026-01-27 14:48:46,004 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\logging.py, 行号: 821, 函数: _runtest_for
+2026-01-27 14:48:46,005 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-27 14:48:46,005 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\capture.py, 行号: 881, 函数: pytest_runtest_call
+2026-01-27 14:48:46,005 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 165, 函数: _multicall
+2026-01-27 14:48:46,005 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\skipping.py, 行号: 255, 函数: pytest_runtest_call
+2026-01-27 14:48:46,006 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 101, 函数: _multicall
+2026-01-27 14:48:46,006 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\runner.py, 行号: 181, 函数: pytest_runtest_call
+2026-01-27 14:48:46,006 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\runner.py, 行号: 173, 函数: pytest_runtest_call
+2026-01-27 14:48:46,006 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\python.py, 行号: 1830, 函数: runtest
+2026-01-27 14:48:46,007 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_hooks.py, 行号: 500, 函数: __call__
+2026-01-27 14:48:46,007 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_manager.py, 行号: 118, 函数: _hookexec
+2026-01-27 14:48:46,007 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 137, 函数: _multicall
+2026-01-27 14:48:46,007 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\pluggy\_callers.py, 行号: 101, 函数: _multicall
+2026-01-27 14:48:46,008 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: E:\Python\python312\Lib\site-packages\_pytest\python.py, 行号: 193, 函数: pytest_pyfunc_call
+2026-01-27 14:48:46,008 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: C:\Users\shi\Desktop\pom_web_ui\test_case\test_login.py, 行号: 27, 函数: test1
+2026-01-27 14:48:46,008 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: C:\Users\shi\Desktop\pom_web_ui\pages\others\login_page.py, 行号: 35, 函数: login
+2026-01-27 14:48:46,008 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: C:\Users\shi\Desktop\pom_web_ui\common\widgets\input.py, 行号: 71, 函数: input_text
+2026-01-27 14:48:46,009 - ERROR - [conftest.py:148 - log_exception_detail] - 文件: C:\Users\shi\Desktop\pom_web_ui\common\widgets\input.py, 行号: 42, 函数: _wait_any_input_present
+2026-01-27 14:48:46,009 - ERROR - [conftest.py:154 - log_exception_detail] - -------- 原生 Python Traceback --------
+2026-01-27 14:48:46,013 - ERROR - [conftest.py:155 - log_exception_detail] - Traceback (most recent call last):
+  File "C:\Users\shi\Desktop\pom_web_ui\common\widgets\input.py", line 39, in _wait_any_input_present
+    WebDriverWait(self.driver, timeout).until(_cond)
+  File "E:\Python\python312\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Python\python312\Lib\site-packages\_pytest\runner.py", line 346, in from_call
+    result: Optional[TResult] = func()
+                                ^^^^^^
+  File "E:\Python\python312\Lib\site-packages\_pytest\runner.py", line 267, in <lambda>
+    lambda: ihook(item=item, **kwds), when=when, reraise=reraise
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_hooks.py", line 501, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_manager.py", line 119, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 181, in _multicall
+    return outcome.get_result()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_result.py", line 99, in get_result
+    raise exc.with_traceback(exc.__traceback__)
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\threadexception.py", line 87, in pytest_runtest_call
+    yield from thread_exception_runtest_hook()
+  File "E:\Python\python312\Lib\site-packages\_pytest\threadexception.py", line 63, in thread_exception_runtest_hook
+    yield
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\unraisableexception.py", line 90, in pytest_runtest_call
+    yield from unraisable_exception_runtest_hook()
+  File "E:\Python\python312\Lib\site-packages\_pytest\unraisableexception.py", line 65, in unraisable_exception_runtest_hook
+    yield
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\logging.py", line 839, in pytest_runtest_call
+    yield from self._runtest_for(item, "call")
+  File "E:\Python\python312\Lib\site-packages\_pytest\logging.py", line 822, in _runtest_for
+    yield
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\capture.py", line 882, in pytest_runtest_call
+    return (yield)
+            ^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 166, in _multicall
+    teardown.throw(outcome._exception)
+  File "E:\Python\python312\Lib\site-packages\_pytest\skipping.py", line 256, in pytest_runtest_call
+    return (yield)
+            ^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 102, in _multicall
+    res = hook_impl.function(*args)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\_pytest\runner.py", line 182, in pytest_runtest_call
+    raise e
+  File "E:\Python\python312\Lib\site-packages\_pytest\runner.py", line 174, in pytest_runtest_call
+    item.runtest()
+  File "E:\Python\python312\Lib\site-packages\_pytest\python.py", line 1831, in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+  File "E:\Python\python312\Lib\site-packages\pluggy\_hooks.py", line 501, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_manager.py", line 119, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 138, in _multicall
+    raise exception.with_traceback(exception.__traceback__)
+  File "E:\Python\python312\Lib\site-packages\pluggy\_callers.py", line 102, in _multicall
+    res = hook_impl.function(*args)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\python312\Lib\site-packages\_pytest\python.py", line 194, in pytest_pyfunc_call
+    result = testfunction(**testargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shi\Desktop\pom_web_ui\test_case\test_login.py", line 28, in test1
+    registry.LoginPage.login()
+  File "C:\Users\shi\Desktop\pom_web_ui\pages\others\login_page.py", line 36, in login
+    ip.input_text('用户名', user)
+  File "C:\Users\shi\Desktop\pom_web_ui\common\widgets\input.py", line 72, in input_text
+    self._wait_any_input_present(label)
+  File "C:\Users\shi\Desktop\pom_web_ui\common\widgets\input.py", line 43, in _wait_any_input_present
+    raise TimeoutException(f"timeout DOM不存在输入框：{label} 元素")
+selenium.common.exceptions.TimeoutException: Message: timeout DOM不存在输入框：用户名 元素
+
+
+2026-01-27 14:48:46,014 - ERROR - [conftest.py:168 - log_exception_detail] - ================================
+2026-01-27 14:48:46,065 - ERROR - [conftest.py:213 - pytest_runtest_makereport] - 已保存失败截图：C:\Users\shi\Desktop\pom_web_ui\screenshot\1_1769496526.jpg

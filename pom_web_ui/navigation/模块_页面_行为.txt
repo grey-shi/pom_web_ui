@@ -1,0 +1,108 @@
+应用级入口（Application Entry）
+
+页面级导航（Page Navigation）
+
+页面内行为（In-Page Action）
+
+
+Navigator：负责“到哪个页面”
+Page：负责“在这个页面能做什么”
+Dialog：负责“弹窗里怎么操作”
+
+
+产品维护模块（是模块）
+    会改变整个页面结构（左侧菜单）
+    是一整套功能域
+    可以作为测试起点
+
+数字阅片模块(是模块)
+    会改变整个页面结构（左侧菜单）
+    是一整套功能域
+    可以作为测试起点
+
+医生管理(页面入口)
+    依附在产品维护模块下
+    离开产品维护模块就不存在
+    本质是 模块内 页面
+
+新增医生(页面行为)
+class DoctorManagePage(BasePage):
+    def open_add_dialog(self):
+        self.add_button.click()
+        return AddDoctorDialog(self.driver)
+
+
+Navigator
+  └── 只负责：跨页面、跨模块、跨上下文
+
+Page
+  └── 只负责：当前页面能做什么
+
+Widget
+  └── 只负责：怎么点、怎么输
+
+
+方案一（强烈推荐）：一个 Page + Tab 枚举
+# pages/digital_reading/tab.py
+from enum import Enum
+
+
+class ReadingTab(Enum):
+    MY_TODO = "我的代办"
+    ALL = "全部代办"
+    RECYCLE = "回收站"
+
+
+Module: 数字阅片
+ └── Page: 列表页 (类)
+      ├── Tab: 我的代办  (列表类的不同状态)
+      ├── Tab: 全部代办
+      └── Tab: 回收站
+           ↓
+      打开项目（Action）
+           ↓
+ └── Page: 项目详情页
+      ├── 玻片列表（Panel）
+      ├── 右侧信息栏（Panel）
+      └── 填写报告（Action）
+           ↓
+ └── Page: 报告编辑页
+      └── 右侧信息栏（复用）
+
+
+数字阅片 / 图文报告 / 报告管理
+    在“页面模型层面”不是模块
+    在“业务导航层面”是模块
+
+    👉 二者不冲突
+
+技术结论是：
+    不是 Tab
+    是「入口不同但落在同一类页面」
+
+Tab 的定义是：
+    同一页面内部切换
+    不刷新整体结构
+    上下文不变
+
+而你这三个：
+    顶部入口切换
+    权限不同
+    URL 不同
+👉 所以不是 Tab
+
+判断是不是模块：
+
+    是否需要 Navigator 单独进入？
+    是否有独立权限？
+    是否是业务一级入口？
+
+    ✔️ 是 → 业务模块
+
+判断是不是 Page：
+
+    DOM 是否高度相似？
+    行为是否高度复用？
+    能否通过 mode 区分？
+
+    ✔️ 是 → 同一个 Page

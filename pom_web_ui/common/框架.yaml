@@ -1,0 +1,77 @@
+- common
+    - widgets            # 文件路径管理
+        - base_dialog.py        # 泛用弹窗最外层定位
+        - base_drawer.py        # ⭐ 抽屉式侧边  (未完成)
+        - base_form.py          # ⭐ 表单输入基类 (未完成)
+        - base_pagination.py    # 页码 （已完成）
+        - sidebar.py            # 左侧菜单栏基类  (已完成)
+        - base_table.py         #  表格基类  (已完成)
+        - base_toast.py         # 悬浮提示  (已完成)
+        - data_picker.py        # 日期控件  (已完成)
+        - select.py             # 下拉框  （已完成）
+        - input.py              # 输入框  （已完成）
+        - button.py             # 按钮  （已完成）
+        - navbar.py             # 导航栏
+    - all_path.py   # 文件路径管理
+    - api_util.py   # 接口类
+    - base_page.py  # 页面封装基类
+    - extractor.py  # 提取类
+    - logger.py     # 日志类
+    - yaml_util.py  # yaml文件管理类
+    - 框架.txt
+- config
+    - env.yaml # 存放环境通用数据
+    - urls.yaml # 存放 网页url管理
+- data # 存放测试数据
+- keywords # 关键字封装（后续优化）
+    - 业务关键字封装.txt
+- logs                    # 日志文件存放目录
+- navigation              # 导航与入口控制层（唯一允许做“页面跳转”的地方）
+    - entry                     # 页面入口组件（不代表页面）
+        - product_sidebar.py        # 产品维护模块左侧菜单（医生管理等）
+        - top_module.py             # 顶部模块切换（数字阅片 / 图文报告 / 报告管理 / 产品维护）
+        - user_menu.py              # 右上角用户菜单（重设密码 / 退出登录）
+    - navigator.py              # 页面跳转总控：对外唯一暴露的“去哪里”
+- pages                    # 页面层（Page Object Model）
+    - auth                      # 认证相关页面（系统入口）
+        - login_page.py
+        - reset_password_page.py
+    - project                       # 项目/阅片/报告相关页面
+        - project_list_page.py          # 项目列表页（支持不同模块模式）
+        - project_detail_page.py        # 项目详情页
+        - report_editor_page.py         # 报告编辑页
+    - product                       # 产品维护相关页面
+        - doctor_manage_page.py         # 医生管理页（典型 CRUD 管理页面）
+    - panels                        # 页面内部复用组件（不能单独访问）
+        - slide_panel.py                # 左侧滑出面板
+        - project_info_panel.py         # 项目信息展示面板
+    - enums                         # 页面/导航语义枚举（消除魔法字符串）
+        - module_mode.py            # 模块模式：数字阅片 / 图文报告 / 报告管理
+        - project_tab.py            # 项目 Tab：我的代办 / 全部代办 / 回收站
+- resources
+    - testdata
+    - assets
+    - configs
+    - locators    # 元素定位文件
+        - fill_report   # 填写报告文件
+            - fill_report.yaml      # 填写报告界面
+        - homepage  # 主界面
+            - digital.yaml          # 数字阅片导航栏
+        - project
+            - review_nav_bar.yaml   # 项目审核导航栏
+        - sys_mgt
+            - doctor_page.yaml  # 医生管理
+            - system_menu_bar.yaml  # 系统菜单栏
+    - widgets
+        - base_dialog.yaml
+        - select.yaml
+        - base_pagination.yaml
+        - base_table.yaml
+        - base_toast.yaml
+    - login_page.yaml  # 登录页面
+    - templates
+    - sql
+- screenshot # 截图记录文件
+- test_case  # 用例管理
+    - conftest.py
+    - test_login.py
